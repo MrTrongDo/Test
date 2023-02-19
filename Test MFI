@@ -1,1 +1,16 @@
+import json
+
+url = 'https://www.imf.org/external/datamapper/{}.json'
+
+data_code = 'WEO'
+
+response = requests.get(url.format(data_code))
+
+if response.status_code != 200:
+    raise ValueError('Failed to get data: status code {}'
+                     .format(response.status_code))
+
+json_data = json.loads(response.content.decode('utf-8-sig'))
+
+print(json_data)
 
