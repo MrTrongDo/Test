@@ -1,0 +1,3416 @@
+{
+    "data": {
+        "TA_FT": [
+            {
+                "ADD_ABMA100_PERC": 0.756613,
+                "ADD_ABMA20_PERC": 0.767195,
+                "PR_DATE": "Mon, 04 Mar 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.715189,
+                "ADD_ABMA20_PERC": 0.736708,
+                "PR_DATE": "Sun, 03 Mar 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.71584,
+                "ADD_ABMA20_PERC": 0.721886,
+                "PR_DATE": "Thu, 29 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.704939,
+                "ADD_ABMA20_PERC": 0.664886,
+                "PR_DATE": "Wed, 28 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.703989,
+                "ADD_ABMA20_PERC": 0.701415,
+                "PR_DATE": "Tue, 27 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.718498,
+                "ADD_ABMA20_PERC": 0.72252,
+                "PR_DATE": "Mon, 26 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.687327,
+                "ADD_ABMA20_PERC": 0.661157,
+                "PR_DATE": "Sun, 25 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.658212,
+                "ADD_ABMA20_PERC": 0.629227,
+                "PR_DATE": "Thu, 22 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.711258,
+                "ADD_ABMA20_PERC": 0.75894,
+                "PR_DATE": "Wed, 21 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.674666,
+                "ADD_ABMA20_PERC": 0.734666,
+                "PR_DATE": "Tue, 20 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.685333,
+                "ADD_ABMA20_PERC": 0.736,
+                "PR_DATE": "Mon, 19 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.677878,
+                "ADD_ABMA20_PERC": 0.737386,
+                "PR_DATE": "Sun, 18 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.634838,
+                "ADD_ABMA20_PERC": 0.72258,
+                "PR_DATE": "Thu, 15 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.609483,
+                "ADD_ABMA20_PERC": 0.682008,
+                "PR_DATE": "Wed, 14 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.610115,
+                "ADD_ABMA20_PERC": 0.608008,
+                "PR_DATE": "Tue, 06 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.542857,
+                "ADD_ABMA20_PERC": 0.511428,
+                "PR_DATE": "Mon, 05 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.542372,
+                "ADD_ABMA20_PERC": 0.481638,
+                "PR_DATE": "Sun, 04 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.516087,
+                "ADD_ABMA20_PERC": 0.480051,
+                "PR_DATE": "Thu, 01 Feb 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.582484,
+                "ADD_ABMA20_PERC": 0.497963,
+                "PR_DATE": "Wed, 31 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.540616,
+                "ADD_ABMA20_PERC": 0.45098,
+                "PR_DATE": "Tue, 30 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.545961,
+                "ADD_ABMA20_PERC": 0.533426,
+                "PR_DATE": "Mon, 29 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.540027,
+                "ADD_ABMA20_PERC": 0.51289,
+                "PR_DATE": "Sun, 28 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.514575,
+                "ADD_ABMA20_PERC": 0.510773,
+                "PR_DATE": "Thu, 25 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.506493,
+                "ADD_ABMA20_PERC": 0.480519,
+                "PR_DATE": "Wed, 24 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.510518,
+                "ADD_ABMA20_PERC": 0.492286,
+                "PR_DATE": "Tue, 23 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.511724,
+                "ADD_ABMA20_PERC": 0.503448,
+                "PR_DATE": "Mon, 22 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.509383,
+                "ADD_ABMA20_PERC": 0.512064,
+                "PR_DATE": "Sun, 21 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.481761,
+                "ADD_ABMA20_PERC": 0.52327,
+                "PR_DATE": "Thu, 18 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.474674,
+                "ADD_ABMA20_PERC": 0.513748,
+                "PR_DATE": "Wed, 17 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.462395,
+                "ADD_ABMA20_PERC": 0.501392,
+                "PR_DATE": "Tue, 16 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.492163,
+                "ADD_ABMA20_PERC": 0.508881,
+                "PR_DATE": "Mon, 15 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.440392,
+                "ADD_ABMA20_PERC": 0.446002,
+                "PR_DATE": "Sun, 14 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.435323,
+                "ADD_ABMA20_PERC": 0.496268,
+                "PR_DATE": "Thu, 11 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.479281,
+                "ADD_ABMA20_PERC": 0.598066,
+                "PR_DATE": "Wed, 10 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.486823,
+                "ADD_ABMA20_PERC": 0.599167,
+                "PR_DATE": "Tue, 09 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.482044,
+                "ADD_ABMA20_PERC": 0.696132,
+                "PR_DATE": "Mon, 08 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.479415,
+                "ADD_ABMA20_PERC": 0.701195,
+                "PR_DATE": "Sun, 07 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.446134,
+                "ADD_ABMA20_PERC": 0.700887,
+                "PR_DATE": "Thu, 04 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.444591,
+                "ADD_ABMA20_PERC": 0.707124,
+                "PR_DATE": "Wed, 03 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.461329,
+                "ADD_ABMA20_PERC": 0.720488,
+                "PR_DATE": "Tue, 02 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.42127,
+                "ADD_ABMA20_PERC": 0.598066,
+                "PR_DATE": "Mon, 01 Jan 2024 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.413223,
+                "ADD_ABMA20_PERC": 0.575757,
+                "PR_DATE": "Wed, 27 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.403005,
+                "ADD_ABMA20_PERC": 0.564207,
+                "PR_DATE": "Tue, 26 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.37912,
+                "ADD_ABMA20_PERC": 0.572802,
+                "PR_DATE": "Mon, 25 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.366022,
+                "ADD_ABMA20_PERC": 0.537292,
+                "PR_DATE": "Sun, 24 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.345268,
+                "ADD_ABMA20_PERC": 0.465473,
+                "PR_DATE": "Thu, 21 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.339791,
+                "ADD_ABMA20_PERC": 0.466467,
+                "PR_DATE": "Wed, 20 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.338639,
+                "ADD_ABMA20_PERC": 0.477568,
+                "PR_DATE": "Tue, 19 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.306122,
+                "ADD_ABMA20_PERC": 0.383381,
+                "PR_DATE": "Mon, 18 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.306801,
+                "ADD_ABMA20_PERC": 0.350217,
+                "PR_DATE": "Sun, 17 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.286092,
+                "ADD_ABMA20_PERC": 0.413245,
+                "PR_DATE": "Thu, 14 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.311965,
+                "ADD_ABMA20_PERC": 0.435897,
+                "PR_DATE": "Wed, 13 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.31,
+                "ADD_ABMA20_PERC": 0.492857,
+                "PR_DATE": "Tue, 12 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.352272,
+                "ADD_ABMA20_PERC": 0.607954,
+                "PR_DATE": "Mon, 11 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.345353,
+                "ADD_ABMA20_PERC": 0.617198,
+                "PR_DATE": "Sun, 10 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.336175,
+                "ADD_ABMA20_PERC": 0.607795,
+                "PR_DATE": "Thu, 07 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.324728,
+                "ADD_ABMA20_PERC": 0.625,
+                "PR_DATE": "Wed, 06 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.341496,
+                "ADD_ABMA20_PERC": 0.648979,
+                "PR_DATE": "Tue, 05 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.319268,
+                "ADD_ABMA20_PERC": 0.578059,
+                "PR_DATE": "Mon, 04 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.319034,
+                "ADD_ABMA20_PERC": 0.636729,
+                "PR_DATE": "Sun, 03 Dec 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.271653,
+                "ADD_ABMA20_PERC": 0.476377,
+                "PR_DATE": "Thu, 30 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.254649,
+                "ADD_ABMA20_PERC": 0.46638,
+                "PR_DATE": "Wed, 29 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.268741,
+                "ADD_ABMA20_PERC": 0.503536,
+                "PR_DATE": "Tue, 28 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.249287,
+                "ADD_ABMA20_PERC": 0.44017,
+                "PR_DATE": "Mon, 27 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.237681,
+                "ADD_ABMA20_PERC": 0.465217,
+                "PR_DATE": "Sun, 26 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.260078,
+                "ADD_ABMA20_PERC": 0.551365,
+                "PR_DATE": "Thu, 23 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.284353,
+                "ADD_ABMA20_PERC": 0.605442,
+                "PR_DATE": "Wed, 22 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.296503,
+                "ADD_ABMA20_PERC": 0.718881,
+                "PR_DATE": "Tue, 21 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.277372,
+                "ADD_ABMA20_PERC": 0.719708,
+                "PR_DATE": "Mon, 20 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.279648,
+                "ADD_ABMA20_PERC": 0.661786,
+                "PR_DATE": "Sun, 19 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.258555,
+                "ADD_ABMA20_PERC": 0.646387,
+                "PR_DATE": "Thu, 16 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.277456,
+                "ADD_ABMA20_PERC": 0.728323,
+                "PR_DATE": "Wed, 15 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.270777,
+                "ADD_ABMA20_PERC": 0.706434,
+                "PR_DATE": "Tue, 14 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.267586,
+                "ADD_ABMA20_PERC": 0.649655,
+                "PR_DATE": "Mon, 13 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.269337,
+                "ADD_ABMA20_PERC": 0.603591,
+                "PR_DATE": "Sun, 12 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.259073,
+                "ADD_ABMA20_PERC": 0.596996,
+                "PR_DATE": "Thu, 09 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.270777,
+                "ADD_ABMA20_PERC": 0.619302,
+                "PR_DATE": "Wed, 08 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.267586,
+                "ADD_ABMA20_PERC": 0.557241,
+                "PR_DATE": "Tue, 07 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.220461,
+                "ADD_ABMA20_PERC": 0.262247,
+                "PR_DATE": "Mon, 06 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.222379,
+                "ADD_ABMA20_PERC": 0.290368,
+                "PR_DATE": "Sun, 05 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.196052,
+                "ADD_ABMA20_PERC": 0.271052,
+                "PR_DATE": "Thu, 02 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.204109,
+                "ADD_ABMA20_PERC": 0.257534,
+                "PR_DATE": "Wed, 01 Nov 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.131241,
+                "ADD_ABMA20_PERC": 0.114122,
+                "PR_DATE": "Tue, 31 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.134078,
+                "ADD_ABMA20_PERC": 0.108938,
+                "PR_DATE": "Mon, 30 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.166167,
+                "ADD_ABMA20_PERC": 0.133233,
+                "PR_DATE": "Sun, 29 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.18134,
+                "ADD_ABMA20_PERC": 0.159001,
+                "PR_DATE": "Thu, 26 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.184796,
+                "ADD_ABMA20_PERC": 0.127129,
+                "PR_DATE": "Wed, 25 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.24751,
+                "ADD_ABMA20_PERC": 0.261735,
+                "PR_DATE": "Tue, 24 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.288793,
+                "ADD_ABMA20_PERC": 0.264367,
+                "PR_DATE": "Mon, 23 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.247787,
+                "ADD_ABMA20_PERC": 0.235988,
+                "PR_DATE": "Sun, 22 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.265228,
+                "ADD_ABMA20_PERC": 0.271573,
+                "PR_DATE": "Thu, 19 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.268741,
+                "ADD_ABMA20_PERC": 0.17256,
+                "PR_DATE": "Wed, 18 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.269798,
+                "ADD_ABMA20_PERC": 0.186577,
+                "PR_DATE": "Tue, 17 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.339915,
+                "ADD_ABMA20_PERC": 0.287729,
+                "PR_DATE": "Mon, 16 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.38961,
+                "ADD_ABMA20_PERC": 0.349206,
+                "PR_DATE": "Sun, 15 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.370698,
+                "ADD_ABMA20_PERC": 0.406096,
+                "PR_DATE": "Thu, 12 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.392857,
+                "ADD_ABMA20_PERC": 0.385714,
+                "PR_DATE": "Wed, 11 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.396198,
+                "ADD_ABMA20_PERC": 0.347953,
+                "PR_DATE": "Tue, 10 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.385674,
+                "ADD_ABMA20_PERC": 0.292011,
+                "PR_DATE": "Mon, 09 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.379457,
+                "ADD_ABMA20_PERC": 0.231098,
+                "PR_DATE": "Sun, 08 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.35324,
+                "ADD_ABMA20_PERC": 0.221092,
+                "PR_DATE": "Thu, 05 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.344927,
+                "ADD_ABMA20_PERC": 0.165217,
+                "PR_DATE": "Wed, 04 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.359712,
+                "ADD_ABMA20_PERC": 0.156834,
+                "PR_DATE": "Tue, 03 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.346685,
+                "ADD_ABMA20_PERC": 0.133977,
+                "PR_DATE": "Mon, 02 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.451289,
+                "ADD_ABMA20_PERC": 0.202005,
+                "PR_DATE": "Sun, 01 Oct 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.426546,
+                "ADD_ABMA20_PERC": 0.22036,
+                "PR_DATE": "Thu, 28 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.437585,
+                "ADD_ABMA20_PERC": 0.176954,
+                "PR_DATE": "Wed, 27 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.43843,
+                "ADD_ABMA20_PERC": 0.163734,
+                "PR_DATE": "Tue, 26 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.409638,
+                "ADD_ABMA20_PERC": 0.139223,
+                "PR_DATE": "Mon, 25 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.426877,
+                "ADD_ABMA20_PERC": 0.177865,
+                "PR_DATE": "Sun, 24 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.551804,
+                "ADD_ABMA20_PERC": 0.310826,
+                "PR_DATE": "Thu, 21 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.670226,
+                "ADD_ABMA20_PERC": 0.492656,
+                "PR_DATE": "Wed, 20 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.674025,
+                "ADD_ABMA20_PERC": 0.55974,
+                "PR_DATE": "Tue, 19 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.640479,
+                "ADD_ABMA20_PERC": 0.44474,
+                "PR_DATE": "Mon, 18 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.657789,
+                "ADD_ABMA20_PERC": 0.47936,
+                "PR_DATE": "Sun, 17 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.654161,
+                "ADD_ABMA20_PERC": 0.508792,
+                "PR_DATE": "Thu, 14 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.690196,
+                "ADD_ABMA20_PERC": 0.496732,
+                "PR_DATE": "Wed, 13 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.740787,
+                "ADD_ABMA20_PERC": 0.587039,
+                "PR_DATE": "Tue, 12 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.764781,
+                "ADD_ABMA20_PERC": 0.616966,
+                "PR_DATE": "Mon, 11 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.744069,
+                "ADD_ABMA20_PERC": 0.51935,
+                "PR_DATE": "Sun, 10 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.768878,
+                "ADD_ABMA20_PERC": 0.653318,
+                "PR_DATE": "Thu, 07 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.782608,
+                "ADD_ABMA20_PERC": 0.601242,
+                "PR_DATE": "Wed, 06 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.785175,
+                "ADD_ABMA20_PERC": 0.590452,
+                "PR_DATE": "Tue, 05 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.770287,
+                "ADD_ABMA20_PERC": 0.53558,
+                "PR_DATE": "Mon, 04 Sep 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.741357,
+                "ADD_ABMA20_PERC": 0.44046,
+                "PR_DATE": "Wed, 30 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.738605,
+                "ADD_ABMA20_PERC": 0.380697,
+                "PR_DATE": "Tue, 29 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.724409,
+                "ADD_ABMA20_PERC": 0.343832,
+                "PR_DATE": "Mon, 28 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.714099,
+                "ADD_ABMA20_PERC": 0.340731,
+                "PR_DATE": "Sun, 27 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.690417,
+                "ADD_ABMA20_PERC": 0.299754,
+                "PR_DATE": "Thu, 24 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.721333,
+                "ADD_ABMA20_PERC": 0.278666,
+                "PR_DATE": "Wed, 23 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.658674,
+                "ADD_ABMA20_PERC": 0.201692,
+                "PR_DATE": "Tue, 22 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.685863,
+                "ADD_ABMA20_PERC": 0.204188,
+                "PR_DATE": "Mon, 21 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.68979,
+                "ADD_ABMA20_PERC": 0.20157,
+                "PR_DATE": "Sun, 20 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.673603,
+                "ADD_ABMA20_PERC": 0.212486,
+                "PR_DATE": "Thu, 17 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.83,
+                "ADD_ABMA20_PERC": 0.5225,
+                "PR_DATE": "Wed, 16 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.854271,
+                "ADD_ABMA20_PERC": 0.629396,
+                "PR_DATE": "Tue, 15 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.856617,
+                "ADD_ABMA20_PERC": 0.666666,
+                "PR_DATE": "Mon, 14 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.84541,
+                "ADD_ABMA20_PERC": 0.671497,
+                "PR_DATE": "Sun, 13 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.827008,
+                "ADD_ABMA20_PERC": 0.63058,
+                "PR_DATE": "Thu, 10 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.838942,
+                "ADD_ABMA20_PERC": 0.645432,
+                "PR_DATE": "Wed, 09 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.857837,
+                "ADD_ABMA20_PERC": 0.726609,
+                "PR_DATE": "Tue, 08 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.840048,
+                "ADD_ABMA20_PERC": 0.721611,
+                "PR_DATE": "Mon, 07 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.824308,
+                "ADD_ABMA20_PERC": 0.691937,
+                "PR_DATE": "Sun, 06 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.79865,
+                "ADD_ABMA20_PERC": 0.610798,
+                "PR_DATE": "Thu, 03 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.81472,
+                "ADD_ABMA20_PERC": 0.597715,
+                "PR_DATE": "Wed, 02 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.825757,
+                "ADD_ABMA20_PERC": 0.648989,
+                "PR_DATE": "Tue, 01 Aug 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.804161,
+                "ADD_ABMA20_PERC": 0.615667,
+                "PR_DATE": "Mon, 31 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.822878,
+                "ADD_ABMA20_PERC": 0.692496,
+                "PR_DATE": "Sun, 30 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.808975,
+                "ADD_ABMA20_PERC": 0.69275,
+                "PR_DATE": "Thu, 27 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.832904,
+                "ADD_ABMA20_PERC": 0.686375,
+                "PR_DATE": "Wed, 26 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.82552,
+                "ADD_ABMA20_PERC": 0.723958,
+                "PR_DATE": "Tue, 25 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.834577,
+                "ADD_ABMA20_PERC": 0.727611,
+                "PR_DATE": "Mon, 24 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.821078,
+                "ADD_ABMA20_PERC": 0.719362,
+                "PR_DATE": "Sun, 23 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.810968,
+                "ADD_ABMA20_PERC": 0.712952,
+                "PR_DATE": "Thu, 20 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.835958,
+                "ADD_ABMA20_PERC": 0.661417,
+                "PR_DATE": "Wed, 19 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.823907,
+                "ADD_ABMA20_PERC": 0.637532,
+                "PR_DATE": "Tue, 18 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.827814,
+                "ADD_ABMA20_PERC": 0.688741,
+                "PR_DATE": "Mon, 17 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.807888,
+                "ADD_ABMA20_PERC": 0.688295,
+                "PR_DATE": "Sun, 16 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.799525,
+                "ADD_ABMA20_PERC": 0.641755,
+                "PR_DATE": "Thu, 13 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.840879,
+                "ADD_ABMA20_PERC": 0.66106,
+                "PR_DATE": "Wed, 12 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.810483,
+                "ADD_ABMA20_PERC": 0.567204,
+                "PR_DATE": "Tue, 11 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.816431,
+                "ADD_ABMA20_PERC": 0.589216,
+                "PR_DATE": "Mon, 10 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.797665,
+                "ADD_ABMA20_PERC": 0.544747,
+                "PR_DATE": "Sun, 09 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.776137,
+                "ADD_ABMA20_PERC": 0.457564,
+                "PR_DATE": "Thu, 06 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.790123,
+                "ADD_ABMA20_PERC": 0.404663,
+                "PR_DATE": "Wed, 05 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.800539,
+                "ADD_ABMA20_PERC": 0.486522,
+                "PR_DATE": "Tue, 04 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.809459,
+                "ADD_ABMA20_PERC": 0.495945,
+                "PR_DATE": "Mon, 03 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.797222,
+                "ADD_ABMA20_PERC": 0.429166,
+                "PR_DATE": "Sun, 02 Jul 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.778045,
+                "ADD_ABMA20_PERC": 0.42702,
+                "PR_DATE": "Thu, 29 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.816513,
+                "ADD_ABMA20_PERC": 0.44692,
+                "PR_DATE": "Wed, 28 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.823684,
+                "ADD_ABMA20_PERC": 0.567105,
+                "PR_DATE": "Tue, 27 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.814229,
+                "ADD_ABMA20_PERC": 0.575757,
+                "PR_DATE": "Mon, 26 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.80718,
+                "ADD_ABMA20_PERC": 0.574468,
+                "PR_DATE": "Sun, 25 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.792824,
+                "ADD_ABMA20_PERC": 0.671296,
+                "PR_DATE": "Thu, 22 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.803594,
+                "ADD_ABMA20_PERC": 0.699614,
+                "PR_DATE": "Wed, 21 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.788157,
+                "ADD_ABMA20_PERC": 0.686842,
+                "PR_DATE": "Tue, 20 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.777631,
+                "ADD_ABMA20_PERC": 0.593421,
+                "PR_DATE": "Mon, 19 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.791891,
+                "ADD_ABMA20_PERC": 0.559459,
+                "PR_DATE": "Sun, 18 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.778698,
+                "ADD_ABMA20_PERC": 0.704142,
+                "PR_DATE": "Thu, 15 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.810143,
+                "ADD_ABMA20_PERC": 0.759427,
+                "PR_DATE": "Wed, 14 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.797484,
+                "ADD_ABMA20_PERC": 0.763522,
+                "PR_DATE": "Tue, 13 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.804816,
+                "ADD_ABMA20_PERC": 0.81242,
+                "PR_DATE": "Mon, 12 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.804909,
+                "ADD_ABMA20_PERC": 0.789405,
+                "PR_DATE": "Sun, 11 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.777385,
+                "ADD_ABMA20_PERC": 0.789163,
+                "PR_DATE": "Thu, 08 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.806083,
+                "ADD_ABMA20_PERC": 0.789607,
+                "PR_DATE": "Wed, 07 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.809831,
+                "ADD_ABMA20_PERC": 0.835705,
+                "PR_DATE": "Tue, 06 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.79661,
+                "ADD_ABMA20_PERC": 0.822685,
+                "PR_DATE": "Mon, 05 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.790874,
+                "ADD_ABMA20_PERC": 0.821292,
+                "PR_DATE": "Sun, 04 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.761072,
+                "ADD_ABMA20_PERC": 0.812354,
+                "PR_DATE": "Thu, 01 Jun 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.78776,
+                "ADD_ABMA20_PERC": 0.808593,
+                "PR_DATE": "Wed, 31 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.755844,
+                "ADD_ABMA20_PERC": 0.777922,
+                "PR_DATE": "Tue, 30 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.739417,
+                "ADD_ABMA20_PERC": 0.755291,
+                "PR_DATE": "Mon, 29 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.725848,
+                "ADD_ABMA20_PERC": 0.754569,
+                "PR_DATE": "Sun, 28 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.641604,
+                "ADD_ABMA20_PERC": 0.645363,
+                "PR_DATE": "Thu, 25 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.665722,
+                "ADD_ABMA20_PERC": 0.624645,
+                "PR_DATE": "Wed, 24 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.670886,
+                "ADD_ABMA20_PERC": 0.652601,
+                "PR_DATE": "Tue, 23 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.660881,
+                "ADD_ABMA20_PERC": 0.678237,
+                "PR_DATE": "Mon, 22 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.672043,
+                "ADD_ABMA20_PERC": 0.704301,
+                "PR_DATE": "Sun, 21 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.620512,
+                "ADD_ABMA20_PERC": 0.683333,
+                "PR_DATE": "Thu, 18 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.69,
+                "ADD_ABMA20_PERC": 0.665714,
+                "PR_DATE": "Wed, 17 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.668515,
+                "ADD_ABMA20_PERC": 0.660194,
+                "PR_DATE": "Tue, 16 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.677551,
+                "ADD_ABMA20_PERC": 0.710204,
+                "PR_DATE": "Mon, 15 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.68521,
+                "ADD_ABMA20_PERC": 0.71099,
+                "PR_DATE": "Sun, 14 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.616049,
+                "ADD_ABMA20_PERC": 0.680246,
+                "PR_DATE": "Thu, 11 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.64,
+                "ADD_ABMA20_PERC": 0.674666,
+                "PR_DATE": "Wed, 10 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.6387,
+                "ADD_ABMA20_PERC": 0.656292,
+                "PR_DATE": "Tue, 09 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.592696,
+                "ADD_ABMA20_PERC": 0.56882,
+                "PR_DATE": "Mon, 08 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.587516,
+                "ADD_ABMA20_PERC": 0.545454,
+                "PR_DATE": "Sun, 07 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.502652,
+                "ADD_ABMA20_PERC": 0.448275,
+                "PR_DATE": "Thu, 04 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.546762,
+                "ADD_ABMA20_PERC": 0.443165,
+                "PR_DATE": "Wed, 03 May 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.519003,
+                "ADD_ABMA20_PERC": 0.462647,
+                "PR_DATE": "Thu, 27 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.541666,
+                "ADD_ABMA20_PERC": 0.425595,
+                "PR_DATE": "Wed, 26 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.517037,
+                "ADD_ABMA20_PERC": 0.428148,
+                "PR_DATE": "Tue, 25 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.487106,
+                "ADD_ABMA20_PERC": 0.369627,
+                "PR_DATE": "Mon, 24 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.536273,
+                "ADD_ABMA20_PERC": 0.39687,
+                "PR_DATE": "Sun, 23 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.496679,
+                "ADD_ABMA20_PERC": 0.455511,
+                "PR_DATE": "Thu, 20 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.556204,
+                "ADD_ABMA20_PERC": 0.480291,
+                "PR_DATE": "Wed, 19 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.539705,
+                "ADD_ABMA20_PERC": 0.5,
+                "PR_DATE": "Tue, 18 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.55102,
+                "ADD_ABMA20_PERC": 0.553935,
+                "PR_DATE": "Mon, 17 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.559043,
+                "ADD_ABMA20_PERC": 0.5142,
+                "PR_DATE": "Sun, 16 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.526938,
+                "ADD_ABMA20_PERC": 0.533508,
+                "PR_DATE": "Thu, 13 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.616361,
+                "ADD_ABMA20_PERC": 0.664315,
+                "PR_DATE": "Wed, 12 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.635211,
+                "ADD_ABMA20_PERC": 0.676056,
+                "PR_DATE": "Tue, 11 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.63741,
+                "ADD_ABMA20_PERC": 0.693525,
+                "PR_DATE": "Mon, 10 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.624829,
+                "ADD_ABMA20_PERC": 0.663028,
+                "PR_DATE": "Sun, 09 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.626474,
+                "ADD_ABMA20_PERC": 0.68283,
+                "PR_DATE": "Thu, 06 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.647058,
+                "ADD_ABMA20_PERC": 0.70725,
+                "PR_DATE": "Wed, 05 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.644718,
+                "ADD_ABMA20_PERC": 0.703703,
+                "PR_DATE": "Tue, 04 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.593619,
+                "ADD_ABMA20_PERC": 0.644937,
+                "PR_DATE": "Mon, 03 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.586538,
+                "ADD_ABMA20_PERC": 0.615384,
+                "PR_DATE": "Sun, 02 Apr 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.506613,
+                "ADD_ABMA20_PERC": 0.480158,
+                "PR_DATE": "Thu, 30 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.524926,
+                "ADD_ABMA20_PERC": 0.498533,
+                "PR_DATE": "Wed, 29 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.519461,
+                "ADD_ABMA20_PERC": 0.476047,
+                "PR_DATE": "Tue, 28 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.503628,
+                "ADD_ABMA20_PERC": 0.467343,
+                "PR_DATE": "Mon, 27 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.515895,
+                "ADD_ABMA20_PERC": 0.463872,
+                "PR_DATE": "Sun, 26 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.446357,
+                "ADD_ABMA20_PERC": 0.414569,
+                "PR_DATE": "Thu, 23 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.46636,
+                "ADD_ABMA20_PERC": 0.350152,
+                "PR_DATE": "Wed, 22 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.467551,
+                "ADD_ABMA20_PERC": 0.333333,
+                "PR_DATE": "Tue, 21 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.47415,
+                "ADD_ABMA20_PERC": 0.314623,
+                "PR_DATE": "Mon, 20 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.431718,
+                "ADD_ABMA20_PERC": 0.229074,
+                "PR_DATE": "Sun, 19 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.461002,
+                "ADD_ABMA20_PERC": 0.323119,
+                "PR_DATE": "Thu, 16 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.478395,
+                "ADD_ABMA20_PERC": 0.297839,
+                "PR_DATE": "Wed, 15 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.510086,
+                "ADD_ABMA20_PERC": 0.442363,
+                "PR_DATE": "Tue, 14 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.428571,
+                "ADD_ABMA20_PERC": 0.228862,
+                "PR_DATE": "Mon, 13 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.48326,
+                "ADD_ABMA20_PERC": 0.366812,
+                "PR_DATE": "Sun, 12 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.492597,
+                "ADD_ABMA20_PERC": 0.488559,
+                "PR_DATE": "Thu, 09 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.528106,
+                "ADD_ABMA20_PERC": 0.525147,
+                "PR_DATE": "Wed, 08 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.496913,
+                "ADD_ABMA20_PERC": 0.435185,
+                "PR_DATE": "Tue, 07 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.479576,
+                "ADD_ABMA20_PERC": 0.358547,
+                "PR_DATE": "Mon, 06 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.464233,
+                "ADD_ABMA20_PERC": 0.353284,
+                "PR_DATE": "Sun, 05 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.425302,
+                "ADD_ABMA20_PERC": 0.308209,
+                "PR_DATE": "Thu, 02 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.464071,
+                "ADD_ABMA20_PERC": 0.356287,
+                "PR_DATE": "Wed, 01 Mar 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.465976,
+                "ADD_ABMA20_PERC": 0.378698,
+                "PR_DATE": "Tue, 28 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.40768,
+                "ADD_ABMA20_PERC": 0.268833,
+                "PR_DATE": "Mon, 27 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.392647,
+                "ADD_ABMA20_PERC": 0.255882,
+                "PR_DATE": "Sun, 26 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.42027,
+                "ADD_ABMA20_PERC": 0.32027,
+                "PR_DATE": "Thu, 23 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.480176,
+                "ADD_ABMA20_PERC": 0.371512,
+                "PR_DATE": "Wed, 22 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.48387,
+                "ADD_ABMA20_PERC": 0.406732,
+                "PR_DATE": "Tue, 21 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.529573,
+                "ADD_ABMA20_PERC": 0.592847,
+                "PR_DATE": "Mon, 20 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.515731,
+                "ADD_ABMA20_PERC": 0.601915,
+                "PR_DATE": "Sun, 19 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.392183,
+                "ADD_ABMA20_PERC": 0.362533,
+                "PR_DATE": "Thu, 16 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.409022,
+                "ADD_ABMA20_PERC": 0.4,
+                "PR_DATE": "Wed, 15 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.373156,
+                "ADD_ABMA20_PERC": 0.330383,
+                "PR_DATE": "Tue, 14 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.306525,
+                "ADD_ABMA20_PERC": 0.254931,
+                "PR_DATE": "Mon, 13 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.302127,
+                "ADD_ABMA20_PERC": 0.275177,
+                "PR_DATE": "Sun, 12 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.346828,
+                "ADD_ABMA20_PERC": 0.392712,
+                "PR_DATE": "Thu, 09 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.390532,
+                "ADD_ABMA20_PERC": 0.479289,
+                "PR_DATE": "Wed, 08 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.373333,
+                "ADD_ABMA20_PERC": 0.481481,
+                "PR_DATE": "Tue, 07 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.368575,
+                "ADD_ABMA20_PERC": 0.450807,
+                "PR_DATE": "Mon, 06 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.386329,
+                "ADD_ABMA20_PERC": 0.58841,
+                "PR_DATE": "Sun, 05 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.373844,
+                "ADD_ABMA20_PERC": 0.601056,
+                "PR_DATE": "Thu, 02 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.382481,
+                "ADD_ABMA20_PERC": 0.640875,
+                "PR_DATE": "Wed, 01 Feb 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.381916,
+                "ADD_ABMA20_PERC": 0.724696,
+                "PR_DATE": "Tue, 31 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.451882,
+                "ADD_ABMA20_PERC": 0.838214,
+                "PR_DATE": "Mon, 30 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.422764,
+                "ADD_ABMA20_PERC": 0.850948,
+                "PR_DATE": "Sun, 29 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.37335,
+                "ADD_ABMA20_PERC": 0.825857,
+                "PR_DATE": "Thu, 26 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.348596,
+                "ADD_ABMA20_PERC": 0.80059,
+                "PR_DATE": "Wed, 18 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.292647,
+                "ADD_ABMA20_PERC": 0.757352,
+                "PR_DATE": "Tue, 17 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.268072,
+                "ADD_ABMA20_PERC": 0.689759,
+                "PR_DATE": "Mon, 16 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.226586,
+                "ADD_ABMA20_PERC": 0.549848,
+                "PR_DATE": "Sun, 15 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.213157,
+                "ADD_ABMA20_PERC": 0.542105,
+                "PR_DATE": "Thu, 12 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.204968,
+                "ADD_ABMA20_PERC": 0.538819,
+                "PR_DATE": "Wed, 11 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.209553,
+                "ADD_ABMA20_PERC": 0.534668,
+                "PR_DATE": "Tue, 10 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.195084,
+                "ADD_ABMA20_PERC": 0.497695,
+                "PR_DATE": "Mon, 09 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.179604,
+                "ADD_ABMA20_PERC": 0.479452,
+                "PR_DATE": "Sun, 08 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.174142,
+                "ADD_ABMA20_PERC": 0.476253,
+                "PR_DATE": "Thu, 05 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.190031,
+                "ADD_ABMA20_PERC": 0.573208,
+                "PR_DATE": "Wed, 04 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.182222,
+                "ADD_ABMA20_PERC": 0.53037,
+                "PR_DATE": "Tue, 03 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.16939,
+                "ADD_ABMA20_PERC": 0.543833,
+                "PR_DATE": "Mon, 02 Jan 2023 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.157894,
+                "ADD_ABMA20_PERC": 0.352226,
+                "PR_DATE": "Thu, 29 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.153153,
+                "ADD_ABMA20_PERC": 0.301801,
+                "PR_DATE": "Wed, 28 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.140888,
+                "ADD_ABMA20_PERC": 0.283307,
+                "PR_DATE": "Tue, 27 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.121765,
+                "ADD_ABMA20_PERC": 0.216133,
+                "PR_DATE": "Mon, 26 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.111111,
+                "ADD_ABMA20_PERC": 0.201754,
+                "PR_DATE": "Sun, 25 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.12483,
+                "ADD_ABMA20_PERC": 0.316146,
+                "PR_DATE": "Thu, 22 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.122356,
+                "ADD_ABMA20_PERC": 0.305135,
+                "PR_DATE": "Wed, 21 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.114035,
+                "ADD_ABMA20_PERC": 0.337719,
+                "PR_DATE": "Tue, 20 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.120516,
+                "ADD_ABMA20_PERC": 0.45911,
+                "PR_DATE": "Mon, 19 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.131241,
+                "ADD_ABMA20_PERC": 0.660485,
+                "PR_DATE": "Sun, 18 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.128906,
+                "ADD_ABMA20_PERC": 0.704427,
+                "PR_DATE": "Thu, 15 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.130177,
+                "ADD_ABMA20_PERC": 0.745562,
+                "PR_DATE": "Wed, 14 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.124087,
+                "ADD_ABMA20_PERC": 0.751824,
+                "PR_DATE": "Tue, 13 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.111273,
+                "ADD_ABMA20_PERC": 0.73792,
+                "PR_DATE": "Mon, 12 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.092413,
+                "ADD_ABMA20_PERC": 0.747586,
+                "PR_DATE": "Sun, 11 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.105128,
+                "ADD_ABMA20_PERC": 0.771794,
+                "PR_DATE": "Thu, 08 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.115862,
+                "ADD_ABMA20_PERC": 0.775172,
+                "PR_DATE": "Wed, 07 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.089761,
+                "ADD_ABMA20_PERC": 0.73352,
+                "PR_DATE": "Tue, 06 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.107142,
+                "ADD_ABMA20_PERC": 0.809065,
+                "PR_DATE": "Mon, 05 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.128104,
+                "ADD_ABMA20_PERC": 0.819607,
+                "PR_DATE": "Sun, 04 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.093711,
+                "ADD_ABMA20_PERC": 0.805178,
+                "PR_DATE": "Thu, 01 Dec 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.092426,
+                "ADD_ABMA20_PERC": 0.788189,
+                "PR_DATE": "Wed, 30 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.097463,
+                "ADD_ABMA20_PERC": 0.763684,
+                "PR_DATE": "Tue, 29 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.079387,
+                "ADD_ABMA20_PERC": 0.745125,
+                "PR_DATE": "Mon, 28 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.075098,
+                "ADD_ABMA20_PERC": 0.650856,
+                "PR_DATE": "Sun, 27 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.066752,
+                "ADD_ABMA20_PERC": 0.430038,
+                "PR_DATE": "Thu, 24 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.059633,
+                "ADD_ABMA20_PERC": 0.290519,
+                "PR_DATE": "Wed, 23 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.052552,
+                "ADD_ABMA20_PERC": 0.247747,
+                "PR_DATE": "Tue, 22 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.054545,
+                "ADD_ABMA20_PERC": 0.302097,
+                "PR_DATE": "Mon, 21 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.055223,
+                "ADD_ABMA20_PERC": 0.225373,
+                "PR_DATE": "Sun, 20 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.053108,
+                "ADD_ABMA20_PERC": 0.168393,
+                "PR_DATE": "Thu, 17 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.052333,
+                "ADD_ABMA20_PERC": 0.120226,
+                "PR_DATE": "Wed, 16 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.051813,
+                "ADD_ABMA20_PERC": 0.091968,
+                "PR_DATE": "Tue, 15 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.043824,
+                "ADD_ABMA20_PERC": 0.058432,
+                "PR_DATE": "Mon, 14 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.04945,
+                "ADD_ABMA20_PERC": 0.07967,
+                "PR_DATE": "Sun, 13 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.062982,
+                "ADD_ABMA20_PERC": 0.097686,
+                "PR_DATE": "Thu, 10 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.058011,
+                "ADD_ABMA20_PERC": 0.084254,
+                "PR_DATE": "Wed, 09 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.079825,
+                "ADD_ABMA20_PERC": 0.134978,
+                "PR_DATE": "Tue, 08 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.068376,
+                "ADD_ABMA20_PERC": 0.112535,
+                "PR_DATE": "Mon, 07 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.060734,
+                "ADD_ABMA20_PERC": 0.097457,
+                "PR_DATE": "Sun, 06 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.078023,
+                "ADD_ABMA20_PERC": 0.161248,
+                "PR_DATE": "Thu, 03 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.08136,
+                "ADD_ABMA20_PERC": 0.218934,
+                "PR_DATE": "Wed, 02 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.092647,
+                "ADD_ABMA20_PERC": 0.217647,
+                "PR_DATE": "Tue, 01 Nov 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.116409,
+                "ADD_ABMA20_PERC": 0.241234,
+                "PR_DATE": "Mon, 31 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.103546,
+                "ADD_ABMA20_PERC": 0.225531,
+                "PR_DATE": "Sun, 30 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.090196,
+                "ADD_ABMA20_PERC": 0.2,
+                "PR_DATE": "Thu, 27 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.096638,
+                "ADD_ABMA20_PERC": 0.197478,
+                "PR_DATE": "Wed, 26 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.086083,
+                "ADD_ABMA20_PERC": 0.109038,
+                "PR_DATE": "Tue, 25 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.081769,
+                "ADD_ABMA20_PERC": 0.108579,
+                "PR_DATE": "Mon, 24 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.089572,
+                "ADD_ABMA20_PERC": 0.108288,
+                "PR_DATE": "Sun, 23 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.114216,
+                "ADD_ABMA20_PERC": 0.156743,
+                "PR_DATE": "Thu, 20 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.121439,
+                "ADD_ABMA20_PERC": 0.1994,
+                "PR_DATE": "Wed, 19 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.135294,
+                "ADD_ABMA20_PERC": 0.20147,
+                "PR_DATE": "Tue, 18 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.141095,
+                "ADD_ABMA20_PERC": 0.19863,
+                "PR_DATE": "Mon, 17 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.118741,
+                "ADD_ABMA20_PERC": 0.155937,
+                "PR_DATE": "Sun, 16 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.124533,
+                "ADD_ABMA20_PERC": 0.134495,
+                "PR_DATE": "Thu, 13 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.11194,
+                "ADD_ABMA20_PERC": 0.101492,
+                "PR_DATE": "Wed, 12 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.108516,
+                "ADD_ABMA20_PERC": 0.081043,
+                "PR_DATE": "Tue, 11 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.090909,
+                "ADD_ABMA20_PERC": 0.065128,
+                "PR_DATE": "Mon, 10 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.116758,
+                "ADD_ABMA20_PERC": 0.093406,
+                "PR_DATE": "Sun, 09 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.116805,
+                "ADD_ABMA20_PERC": 0.083432,
+                "PR_DATE": "Thu, 06 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.13617,
+                "ADD_ABMA20_PERC": 0.089361,
+                "PR_DATE": "Wed, 05 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.159279,
+                "ADD_ABMA20_PERC": 0.116343,
+                "PR_DATE": "Tue, 04 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.132075,
+                "ADD_ABMA20_PERC": 0.091644,
+                "PR_DATE": "Mon, 03 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.130136,
+                "ADD_ABMA20_PERC": 0.089041,
+                "PR_DATE": "Sun, 02 Oct 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.204379,
+                "ADD_ABMA20_PERC": 0.135036,
+                "PR_DATE": "Thu, 29 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.196927,
+                "ADD_ABMA20_PERC": 0.121508,
+                "PR_DATE": "Wed, 28 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.20527,
+                "ADD_ABMA20_PERC": 0.11373,
+                "PR_DATE": "Tue, 27 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.247126,
+                "ADD_ABMA20_PERC": 0.156609,
+                "PR_DATE": "Mon, 26 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.236057,
+                "ADD_ABMA20_PERC": 0.154345,
+                "PR_DATE": "Sun, 25 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.301387,
+                "ADD_ABMA20_PERC": 0.230769,
+                "PR_DATE": "Thu, 22 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.324728,
+                "ADD_ABMA20_PERC": 0.225543,
+                "PR_DATE": "Wed, 21 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.292439,
+                "ADD_ABMA20_PERC": 0.212553,
+                "PR_DATE": "Tue, 20 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.314637,
+                "ADD_ABMA20_PERC": 0.216142,
+                "PR_DATE": "Mon, 19 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.269484,
+                "ADD_ABMA20_PERC": 0.173051,
+                "PR_DATE": "Sun, 18 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.318455,
+                "ADD_ABMA20_PERC": 0.253317,
+                "PR_DATE": "Thu, 15 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.392857,
+                "ADD_ABMA20_PERC": 0.302197,
+                "PR_DATE": "Wed, 14 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.377867,
+                "ADD_ABMA20_PERC": 0.280701,
+                "PR_DATE": "Tue, 13 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.384196,
+                "ADD_ABMA20_PERC": 0.301089,
+                "PR_DATE": "Mon, 12 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.377333,
+                "ADD_ABMA20_PERC": 0.293333,
+                "PR_DATE": "Sun, 11 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.35174,
+                "ADD_ABMA20_PERC": 0.285714,
+                "PR_DATE": "Thu, 08 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.310067,
+                "ADD_ABMA20_PERC": 0.220134,
+                "PR_DATE": "Wed, 07 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.340702,
+                "ADD_ABMA20_PERC": 0.240572,
+                "PR_DATE": "Tue, 06 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.414698,
+                "ADD_ABMA20_PERC": 0.363517,
+                "PR_DATE": "Mon, 05 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.398936,
+                "ADD_ABMA20_PERC": 0.394946,
+                "PR_DATE": "Sun, 04 Sep 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.403768,
+                "ADD_ABMA20_PERC": 0.397039,
+                "PR_DATE": "Tue, 30 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.370418,
+                "ADD_ABMA20_PERC": 0.362565,
+                "PR_DATE": "Mon, 29 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.34214,
+                "ADD_ABMA20_PERC": 0.339498,
+                "PR_DATE": "Sun, 28 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.365339,
+                "ADD_ABMA20_PERC": 0.480093,
+                "PR_DATE": "Thu, 25 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.397727,
+                "ADD_ABMA20_PERC": 0.60101,
+                "PR_DATE": "Wed, 24 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.35641,
+                "ADD_ABMA20_PERC": 0.55,
+                "PR_DATE": "Tue, 23 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.319628,
+                "ADD_ABMA20_PERC": 0.534482,
+                "PR_DATE": "Mon, 22 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.260237,
+                "ADD_ABMA20_PERC": 0.437252,
+                "PR_DATE": "Sun, 21 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.275485,
+                "ADD_ABMA20_PERC": 0.572815,
+                "PR_DATE": "Thu, 18 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.276455,
+                "ADD_ABMA20_PERC": 0.664021,
+                "PR_DATE": "Wed, 17 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.283333,
+                "ADD_ABMA20_PERC": 0.711538,
+                "PR_DATE": "Tue, 16 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.276129,
+                "ADD_ABMA20_PERC": 0.754838,
+                "PR_DATE": "Mon, 15 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.28035,
+                "ADD_ABMA20_PERC": 0.782227,
+                "PR_DATE": "Sun, 14 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.269729,
+                "ADD_ABMA20_PERC": 0.806831,
+                "PR_DATE": "Thu, 11 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.216957,
+                "ADD_ABMA20_PERC": 0.780548,
+                "PR_DATE": "Wed, 10 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.229885,
+                "ADD_ABMA20_PERC": 0.808429,
+                "PR_DATE": "Tue, 09 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.227672,
+                "ADD_ABMA20_PERC": 0.81132,
+                "PR_DATE": "Mon, 08 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.214917,
+                "ADD_ABMA20_PERC": 0.797724,
+                "PR_DATE": "Sun, 07 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.189281,
+                "ADD_ABMA20_PERC": 0.786773,
+                "PR_DATE": "Thu, 04 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.194373,
+                "ADD_ABMA20_PERC": 0.79156,
+                "PR_DATE": "Wed, 03 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.195431,
+                "ADD_ABMA20_PERC": 0.784263,
+                "PR_DATE": "Tue, 02 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.183593,
+                "ADD_ABMA20_PERC": 0.802083,
+                "PR_DATE": "Mon, 01 Aug 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.17268,
+                "ADD_ABMA20_PERC": 0.75,
+                "PR_DATE": "Sun, 31 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.147482,
+                "ADD_ABMA20_PERC": 0.691846,
+                "PR_DATE": "Thu, 28 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.142673,
+                "ADD_ABMA20_PERC": 0.688946,
+                "PR_DATE": "Wed, 27 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.143055,
+                "ADD_ABMA20_PERC": 0.595833,
+                "PR_DATE": "Tue, 26 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.117808,
+                "ADD_ABMA20_PERC": 0.560273,
+                "PR_DATE": "Mon, 25 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.130494,
+                "ADD_ABMA20_PERC": 0.612637,
+                "PR_DATE": "Sun, 24 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.116363,
+                "ADD_ABMA20_PERC": 0.687272,
+                "PR_DATE": "Thu, 21 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.124833,
+                "ADD_ABMA20_PERC": 0.718459,
+                "PR_DATE": "Wed, 20 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.11923,
+                "ADD_ABMA20_PERC": 0.724358,
+                "PR_DATE": "Tue, 19 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.108516,
+                "ADD_ABMA20_PERC": 0.667582,
+                "PR_DATE": "Mon, 18 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.109289,
+                "ADD_ABMA20_PERC": 0.672131,
+                "PR_DATE": "Sun, 17 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.087223,
+                "ADD_ABMA20_PERC": 0.642506,
+                "PR_DATE": "Thu, 14 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.100278,
+                "ADD_ABMA20_PERC": 0.661559,
+                "PR_DATE": "Wed, 13 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.098798,
+                "ADD_ABMA20_PERC": 0.571428,
+                "PR_DATE": "Tue, 12 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.092769,
+                "ADD_ABMA20_PERC": 0.548431,
+                "PR_DATE": "Mon, 11 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.082543,
+                "ADD_ABMA20_PERC": 0.353179,
+                "PR_DATE": "Sun, 10 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.076732,
+                "ADD_ABMA20_PERC": 0.340346,
+                "PR_DATE": "Thu, 07 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.085836,
+                "ADD_ABMA20_PERC": 0.207439,
+                "PR_DATE": "Wed, 06 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.078651,
+                "ADD_ABMA20_PERC": 0.188202,
+                "PR_DATE": "Tue, 05 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.09054,
+                "ADD_ABMA20_PERC": 0.206756,
+                "PR_DATE": "Mon, 04 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.10204,
+                "ADD_ABMA20_PERC": 0.242176,
+                "PR_DATE": "Sun, 03 Jul 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.096501,
+                "ADD_ABMA20_PERC": 0.188178,
+                "PR_DATE": "Thu, 30 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.126835,
+                "ADD_ABMA20_PERC": 0.221628,
+                "PR_DATE": "Wed, 29 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.115902,
+                "ADD_ABMA20_PERC": 0.241239,
+                "PR_DATE": "Tue, 28 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.112125,
+                "ADD_ABMA20_PERC": 0.219035,
+                "PR_DATE": "Mon, 27 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.127175,
+                "ADD_ABMA20_PERC": 0.175368,
+                "PR_DATE": "Sun, 26 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.089133,
+                "ADD_ABMA20_PERC": 0.135531,
+                "PR_DATE": "Thu, 23 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.100412,
+                "ADD_ABMA20_PERC": 0.112792,
+                "PR_DATE": "Wed, 22 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.082794,
+                "ADD_ABMA20_PERC": 0.084087,
+                "PR_DATE": "Tue, 21 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.094928,
+                "ADD_ABMA20_PERC": 0.081924,
+                "PR_DATE": "Mon, 20 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.119496,
+                "ADD_ABMA20_PERC": 0.113207,
+                "PR_DATE": "Sun, 19 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.118119,
+                "ADD_ABMA20_PERC": 0.150229,
+                "PR_DATE": "Thu, 16 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.140808,
+                "ADD_ABMA20_PERC": 0.191655,
+                "PR_DATE": "Wed, 15 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.11097,
+                "ADD_ABMA20_PERC": 0.137452,
+                "PR_DATE": "Tue, 14 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.15,
+                "ADD_ABMA20_PERC": 0.192307,
+                "PR_DATE": "Mon, 13 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.153558,
+                "ADD_ABMA20_PERC": 0.186017,
+                "PR_DATE": "Sun, 12 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.1709,
+                "ADD_ABMA20_PERC": 0.413394,
+                "PR_DATE": "Thu, 09 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.212987,
+                "ADD_ABMA20_PERC": 0.58961,
+                "PR_DATE": "Wed, 08 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.2057,
+                "ADD_ABMA20_PERC": 0.558859,
+                "PR_DATE": "Tue, 07 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.178168,
+                "ADD_ABMA20_PERC": 0.422835,
+                "PR_DATE": "Mon, 06 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.179746,
+                "ADD_ABMA20_PERC": 0.45443,
+                "PR_DATE": "Sun, 05 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.163915,
+                "ADD_ABMA20_PERC": 0.466981,
+                "PR_DATE": "Thu, 02 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.180589,
+                "ADD_ABMA20_PERC": 0.506142,
+                "PR_DATE": "Wed, 01 Jun 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.177865,
+                "ADD_ABMA20_PERC": 0.581027,
+                "PR_DATE": "Tue, 31 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.160759,
+                "ADD_ABMA20_PERC": 0.562025,
+                "PR_DATE": "Mon, 30 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.176844,
+                "ADD_ABMA20_PERC": 0.572519,
+                "PR_DATE": "Sun, 29 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.149478,
+                "ADD_ABMA20_PERC": 0.419466,
+                "PR_DATE": "Thu, 26 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.15586,
+                "ADD_ABMA20_PERC": 0.356608,
+                "PR_DATE": "Wed, 25 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.147869,
+                "ADD_ABMA20_PERC": 0.290726,
+                "PR_DATE": "Tue, 24 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.108179,
+                "ADD_ABMA20_PERC": 0.154353,
+                "PR_DATE": "Mon, 23 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.13049,
+                "ADD_ABMA20_PERC": 0.16279,
+                "PR_DATE": "Sun, 22 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.130588,
+                "ADD_ABMA20_PERC": 0.195294,
+                "PR_DATE": "Thu, 19 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.125,
+                "ADD_ABMA20_PERC": 0.170698,
+                "PR_DATE": "Wed, 18 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.136708,
+                "ADD_ABMA20_PERC": 0.16962,
+                "PR_DATE": "Tue, 17 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.13882,
+                "ADD_ABMA20_PERC": 0.153562,
+                "PR_DATE": "Mon, 16 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.121553,
+                "ADD_ABMA20_PERC": 0.078947,
+                "PR_DATE": "Sun, 15 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.114806,
+                "ADD_ABMA20_PERC": 0.067596,
+                "PR_DATE": "Thu, 12 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.147201,
+                "ADD_ABMA20_PERC": 0.09124,
+                "PR_DATE": "Wed, 11 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.177522,
+                "ADD_ABMA20_PERC": 0.128991,
+                "PR_DATE": "Tue, 10 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.176039,
+                "ADD_ABMA20_PERC": 0.108801,
+                "PR_DATE": "Mon, 09 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.15592,
+                "ADD_ABMA20_PERC": 0.090269,
+                "PR_DATE": "Sun, 08 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.205586,
+                "ADD_ABMA20_PERC": 0.139664,
+                "PR_DATE": "Thu, 05 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.250611,
+                "ADD_ABMA20_PERC": 0.160146,
+                "PR_DATE": "Wed, 04 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.262394,
+                "ADD_ABMA20_PERC": 0.158403,
+                "PR_DATE": "Tue, 03 May 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.257995,
+                "ADD_ABMA20_PERC": 0.167377,
+                "PR_DATE": "Thu, 28 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.243605,
+                "ADD_ABMA20_PERC": 0.107186,
+                "PR_DATE": "Wed, 27 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.223039,
+                "ADD_ABMA20_PERC": 0.085784,
+                "PR_DATE": "Tue, 26 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.212543,
+                "ADD_ABMA20_PERC": 0.069686,
+                "PR_DATE": "Mon, 25 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.186498,
+                "ADD_ABMA20_PERC": 0.065217,
+                "PR_DATE": "Sun, 24 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.242579,
+                "ADD_ABMA20_PERC": 0.109518,
+                "PR_DATE": "Thu, 21 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.273437,
+                "ADD_ABMA20_PERC": 0.132812,
+                "PR_DATE": "Wed, 20 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.301014,
+                "ADD_ABMA20_PERC": 0.161217,
+                "PR_DATE": "Tue, 19 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.340112,
+                "ADD_ABMA20_PERC": 0.206779,
+                "PR_DATE": "Mon, 18 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.356334,
+                "ADD_ABMA20_PERC": 0.204751,
+                "PR_DATE": "Sun, 17 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.410732,
+                "ADD_ABMA20_PERC": 0.236326,
+                "PR_DATE": "Thu, 14 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.445601,
+                "ADD_ABMA20_PERC": 0.259259,
+                "PR_DATE": "Wed, 13 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.445823,
+                "ADD_ABMA20_PERC": 0.257336,
+                "PR_DATE": "Tue, 12 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.408783,
+                "ADD_ABMA20_PERC": 0.224099,
+                "PR_DATE": "Mon, 11 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.481443,
+                "ADD_ABMA20_PERC": 0.304123,
+                "PR_DATE": "Thu, 07 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.550904,
+                "ADD_ABMA20_PERC": 0.38914,
+                "PR_DATE": "Wed, 06 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.592592,
+                "ADD_ABMA20_PERC": 0.475869,
+                "PR_DATE": "Tue, 05 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.61804,
+                "ADD_ABMA20_PERC": 0.528953,
+                "PR_DATE": "Mon, 04 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.622459,
+                "ADD_ABMA20_PERC": 0.537967,
+                "PR_DATE": "Sun, 03 Apr 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.580234,
+                "ADD_ABMA20_PERC": 0.486301,
+                "PR_DATE": "Thu, 31 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.602409,
+                "ADD_ABMA20_PERC": 0.486308,
+                "PR_DATE": "Wed, 30 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.599352,
+                "ADD_ABMA20_PERC": 0.516198,
+                "PR_DATE": "Tue, 29 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.66702,
+                "ADD_ABMA20_PERC": 0.636267,
+                "PR_DATE": "Mon, 28 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.620469,
+                "ADD_ABMA20_PERC": 0.54904,
+                "PR_DATE": "Sun, 27 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.65527,
+                "ADD_ABMA20_PERC": 0.676163,
+                "PR_DATE": "Thu, 24 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.666666,
+                "ADD_ABMA20_PERC": 0.668783,
+                "PR_DATE": "Wed, 23 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.642857,
+                "ADD_ABMA20_PERC": 0.696428,
+                "PR_DATE": "Tue, 22 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.632804,
+                "ADD_ABMA20_PERC": 0.68783,
+                "PR_DATE": "Mon, 21 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.612903,
+                "ADD_ABMA20_PERC": 0.634408,
+                "PR_DATE": "Sun, 20 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.583665,
+                "ADD_ABMA20_PERC": 0.596613,
+                "PR_DATE": "Thu, 17 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.596548,
+                "ADD_ABMA20_PERC": 0.587918,
+                "PR_DATE": "Wed, 16 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.581036,
+                "ADD_ABMA20_PERC": 0.579933,
+                "PR_DATE": "Tue, 15 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.574157,
+                "ADD_ABMA20_PERC": 0.546067,
+                "PR_DATE": "Mon, 14 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.560439,
+                "ADD_ABMA20_PERC": 0.521978,
+                "PR_DATE": "Sun, 13 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.623145,
+                "ADD_ABMA20_PERC": 0.615232,
+                "PR_DATE": "Thu, 10 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.654914,
+                "ADD_ABMA20_PERC": 0.700854,
+                "PR_DATE": "Wed, 09 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.612377,
+                "ADD_ABMA20_PERC": 0.631921,
+                "PR_DATE": "Tue, 08 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.606451,
+                "ADD_ABMA20_PERC": 0.639784,
+                "PR_DATE": "Mon, 07 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.667024,
+                "ADD_ABMA20_PERC": 0.745435,
+                "PR_DATE": "Sun, 06 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.628516,
+                "ADD_ABMA20_PERC": 0.717749,
+                "PR_DATE": "Thu, 03 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.612834,
+                "ADD_ABMA20_PERC": 0.705882,
+                "PR_DATE": "Wed, 02 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.548314,
+                "ADD_ABMA20_PERC": 0.640449,
+                "PR_DATE": "Tue, 01 Mar 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.580571,
+                "ADD_ABMA20_PERC": 0.72,
+                "PR_DATE": "Mon, 28 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.561643,
+                "ADD_ABMA20_PERC": 0.689497,
+                "PR_DATE": "Sun, 27 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.542739,
+                "ADD_ABMA20_PERC": 0.707518,
+                "PR_DATE": "Thu, 24 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.51525,
+                "ADD_ABMA20_PERC": 0.638344,
+                "PR_DATE": "Wed, 23 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.571746,
+                "ADD_ABMA20_PERC": 0.809788,
+                "PR_DATE": "Tue, 22 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.538024,
+                "ADD_ABMA20_PERC": 0.765039,
+                "PR_DATE": "Mon, 21 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.573971,
+                "ADD_ABMA20_PERC": 0.808676,
+                "PR_DATE": "Sun, 20 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.54715,
+                "ADD_ABMA20_PERC": 0.762694,
+                "PR_DATE": "Thu, 17 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.521839,
+                "ADD_ABMA20_PERC": 0.729885,
+                "PR_DATE": "Wed, 16 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.500587,
+                "ADD_ABMA20_PERC": 0.680376,
+                "PR_DATE": "Tue, 15 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.491525,
+                "ADD_ABMA20_PERC": 0.560532,
+                "PR_DATE": "Mon, 14 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.478158,
+                "ADD_ABMA20_PERC": 0.488783,
+                "PR_DATE": "Sun, 13 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.517609,
+                "ADD_ABMA20_PERC": 0.521878,
+                "PR_DATE": "Thu, 10 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.504716,
+                "ADD_ABMA20_PERC": 0.501179,
+                "PR_DATE": "Wed, 09 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.50867,
+                "ADD_ABMA20_PERC": 0.457803,
+                "PR_DATE": "Tue, 08 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.472488,
+                "ADD_ABMA20_PERC": 0.385167,
+                "PR_DATE": "Mon, 07 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.481927,
+                "ADD_ABMA20_PERC": 0.33012,
+                "PR_DATE": "Sun, 06 Feb 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.439181,
+                "ADD_ABMA20_PERC": 0.229278,
+                "PR_DATE": "Thu, 27 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.375156,
+                "ADD_ABMA20_PERC": 0.18946,
+                "PR_DATE": "Wed, 26 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.400247,
+                "ADD_ABMA20_PERC": 0.188351,
+                "PR_DATE": "Tue, 25 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.42398,
+                "ADD_ABMA20_PERC": 0.201483,
+                "PR_DATE": "Mon, 24 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.421052,
+                "ADD_ABMA20_PERC": 0.167464,
+                "PR_DATE": "Sun, 23 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.53694,
+                "ADD_ABMA20_PERC": 0.234131,
+                "PR_DATE": "Thu, 20 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.49647,
+                "ADD_ABMA20_PERC": 0.2,
+                "PR_DATE": "Wed, 19 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.429245,
+                "ADD_ABMA20_PERC": 0.156839,
+                "PR_DATE": "Tue, 18 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.437997,
+                "ADD_ABMA20_PERC": 0.149032,
+                "PR_DATE": "Mon, 17 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.512965,
+                "ADD_ABMA20_PERC": 0.177001,
+                "PR_DATE": "Sun, 16 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.662,
+                "ADD_ABMA20_PERC": 0.313,
+                "PR_DATE": "Thu, 13 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.638674,
+                "ADD_ABMA20_PERC": 0.292817,
+                "PR_DATE": "Wed, 12 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.684615,
+                "ADD_ABMA20_PERC": 0.432967,
+                "PR_DATE": "Tue, 11 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.708515,
+                "ADD_ABMA20_PERC": 0.497816,
+                "PR_DATE": "Mon, 10 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.729758,
+                "ADD_ABMA20_PERC": 0.556256,
+                "PR_DATE": "Sun, 09 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.771291,
+                "ADD_ABMA20_PERC": 0.626794,
+                "PR_DATE": "Thu, 06 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.756959,
+                "ADD_ABMA20_PERC": 0.608137,
+                "PR_DATE": "Wed, 05 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.767491,
+                "ADD_ABMA20_PERC": 0.603875,
+                "PR_DATE": "Tue, 04 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.777301,
+                "ADD_ABMA20_PERC": 0.620985,
+                "PR_DATE": "Mon, 03 Jan 2022 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.783203,
+                "ADD_ABMA20_PERC": 0.541015,
+                "PR_DATE": "Thu, 30 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.759423,
+                "ADD_ABMA20_PERC": 0.556541,
+                "PR_DATE": "Wed, 29 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.766558,
+                "ADD_ABMA20_PERC": 0.488599,
+                "PR_DATE": "Tue, 28 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.76898,
+                "ADD_ABMA20_PERC": 0.462039,
+                "PR_DATE": "Mon, 27 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.757644,
+                "ADD_ABMA20_PERC": 0.454133,
+                "PR_DATE": "Sun, 26 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.769857,
+                "ADD_ABMA20_PERC": 0.425661,
+                "PR_DATE": "Thu, 23 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.749448,
+                "ADD_ABMA20_PERC": 0.410596,
+                "PR_DATE": "Wed, 22 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.779475,
+                "ADD_ABMA20_PERC": 0.451965,
+                "PR_DATE": "Tue, 21 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.793513,
+                "ADD_ABMA20_PERC": 0.443243,
+                "PR_DATE": "Mon, 20 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.808791,
+                "ADD_ABMA20_PERC": 0.425274,
+                "PR_DATE": "Sun, 19 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.82651,
+                "ADD_ABMA20_PERC": 0.454191,
+                "PR_DATE": "Thu, 16 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.843853,
+                "ADD_ABMA20_PERC": 0.436323,
+                "PR_DATE": "Wed, 15 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.849836,
+                "ADD_ABMA20_PERC": 0.413492,
+                "PR_DATE": "Tue, 14 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.857296,
+                "ADD_ABMA20_PERC": 0.416309,
+                "PR_DATE": "Mon, 13 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.863347,
+                "ADD_ABMA20_PERC": 0.403601,
+                "PR_DATE": "Sun, 12 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.854166,
+                "ADD_ABMA20_PERC": 0.334325,
+                "PR_DATE": "Thu, 09 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.860491,
+                "ADD_ABMA20_PERC": 0.311383,
+                "PR_DATE": "Wed, 08 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.840484,
+                "ADD_ABMA20_PERC": 0.273927,
+                "PR_DATE": "Tue, 07 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.847098,
+                "ADD_ABMA20_PERC": 0.282366,
+                "PR_DATE": "Mon, 06 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.80326,
+                "ADD_ABMA20_PERC": 0.229347,
+                "PR_DATE": "Sun, 05 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.886363,
+                "ADD_ABMA20_PERC": 0.408143,
+                "PR_DATE": "Thu, 02 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.911485,
+                "ADD_ABMA20_PERC": 0.514225,
+                "PR_DATE": "Wed, 01 Dec 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.910966,
+                "ADD_ABMA20_PERC": 0.49077,
+                "PR_DATE": "Tue, 30 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.91719,
+                "ADD_ABMA20_PERC": 0.48218,
+                "PR_DATE": "Mon, 29 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.923664,
+                "ADD_ABMA20_PERC": 0.503816,
+                "PR_DATE": "Sun, 28 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.920604,
+                "ADD_ABMA20_PERC": 0.518903,
+                "PR_DATE": "Thu, 25 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.919032,
+                "ADD_ABMA20_PERC": 0.555205,
+                "PR_DATE": "Wed, 24 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.919958,
+                "ADD_ABMA20_PERC": 0.547817,
+                "PR_DATE": "Tue, 23 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.917381,
+                "ADD_ABMA20_PERC": 0.538626,
+                "PR_DATE": "Mon, 22 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.890889,
+                "ADD_ABMA20_PERC": 0.507415,
+                "PR_DATE": "Sun, 21 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.927927,
+                "ADD_ABMA20_PERC": 0.696396,
+                "PR_DATE": "Thu, 18 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.931771,
+                "ADD_ABMA20_PERC": 0.783095,
+                "PR_DATE": "Wed, 17 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.942327,
+                "ADD_ABMA20_PERC": 0.805355,
+                "PR_DATE": "Tue, 16 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.93865,
+                "ADD_ABMA20_PERC": 0.816973,
+                "PR_DATE": "Mon, 15 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.940222,
+                "ADD_ABMA20_PERC": 0.843971,
+                "PR_DATE": "Sun, 14 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.945622,
+                "ADD_ABMA20_PERC": 0.832258,
+                "PR_DATE": "Thu, 11 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.933823,
+                "ADD_ABMA20_PERC": 0.821428,
+                "PR_DATE": "Wed, 10 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.935244,
+                "ADD_ABMA20_PERC": 0.830148,
+                "PR_DATE": "Tue, 09 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.928348,
+                "ADD_ABMA20_PERC": 0.81516,
+                "PR_DATE": "Mon, 08 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.92,
+                "ADD_ABMA20_PERC": 0.812631,
+                "PR_DATE": "Sun, 07 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.916746,
+                "ADD_ABMA20_PERC": 0.803827,
+                "PR_DATE": "Thu, 04 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.912568,
+                "ADD_ABMA20_PERC": 0.77377,
+                "PR_DATE": "Wed, 03 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.914736,
+                "ADD_ABMA20_PERC": 0.751578,
+                "PR_DATE": "Tue, 02 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.911366,
+                "ADD_ABMA20_PERC": 0.809176,
+                "PR_DATE": "Mon, 01 Nov 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.904958,
+                "ADD_ABMA20_PERC": 0.801652,
+                "PR_DATE": "Sun, 31 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.907303,
+                "ADD_ABMA20_PERC": 0.820224,
+                "PR_DATE": "Thu, 28 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.900862,
+                "ADD_ABMA20_PERC": 0.803879,
+                "PR_DATE": "Wed, 27 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.89364,
+                "ADD_ABMA20_PERC": 0.788377,
+                "PR_DATE": "Tue, 26 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.883146,
+                "ADD_ABMA20_PERC": 0.71573,
+                "PR_DATE": "Mon, 25 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.871851,
+                "ADD_ABMA20_PERC": 0.695509,
+                "PR_DATE": "Sun, 24 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.872889,
+                "ADD_ABMA20_PERC": 0.7428,
+                "PR_DATE": "Thu, 21 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.879953,
+                "ADD_ABMA20_PERC": 0.708624,
+                "PR_DATE": "Wed, 20 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.872119,
+                "ADD_ABMA20_PERC": 0.686635,
+                "PR_DATE": "Tue, 19 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.868571,
+                "ADD_ABMA20_PERC": 0.656,
+                "PR_DATE": "Mon, 18 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.866132,
+                "ADD_ABMA20_PERC": 0.637299,
+                "PR_DATE": "Sun, 17 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.868209,
+                "ADD_ABMA20_PERC": 0.69014,
+                "PR_DATE": "Thu, 14 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.86659,
+                "ADD_ABMA20_PERC": 0.655644,
+                "PR_DATE": "Wed, 13 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.867287,
+                "ADD_ABMA20_PERC": 0.610011,
+                "PR_DATE": "Tue, 12 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.863013,
+                "ADD_ABMA20_PERC": 0.618721,
+                "PR_DATE": "Mon, 11 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.85941,
+                "ADD_ABMA20_PERC": 0.651927,
+                "PR_DATE": "Sun, 10 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.864337,
+                "ADD_ABMA20_PERC": 0.667009,
+                "PR_DATE": "Thu, 07 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.866513,
+                "ADD_ABMA20_PERC": 0.670886,
+                "PR_DATE": "Wed, 06 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.851162,
+                "ADD_ABMA20_PERC": 0.617441,
+                "PR_DATE": "Tue, 05 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.837426,
+                "ADD_ABMA20_PERC": 0.555555,
+                "PR_DATE": "Mon, 04 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.824214,
+                "ADD_ABMA20_PERC": 0.508731,
+                "PR_DATE": "Sun, 03 Oct 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.818467,
+                "ADD_ABMA20_PERC": 0.526757,
+                "PR_DATE": "Thu, 30 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.845138,
+                "ADD_ABMA20_PERC": 0.569027,
+                "PR_DATE": "Wed, 29 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.834333,
+                "ADD_ABMA20_PERC": 0.535414,
+                "PR_DATE": "Tue, 28 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.840277,
+                "ADD_ABMA20_PERC": 0.539351,
+                "PR_DATE": "Mon, 27 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.834872,
+                "ADD_ABMA20_PERC": 0.49769,
+                "PR_DATE": "Sun, 26 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.865191,
+                "ADD_ABMA20_PERC": 0.74346,
+                "PR_DATE": "Thu, 23 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.873348,
+                "ADD_ABMA20_PERC": 0.777533,
+                "PR_DATE": "Wed, 22 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.873487,
+                "ADD_ABMA20_PERC": 0.80638,
+                "PR_DATE": "Tue, 21 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.849206,
+                "ADD_ABMA20_PERC": 0.749433,
+                "PR_DATE": "Mon, 20 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.850713,
+                "ADD_ABMA20_PERC": 0.801317,
+                "PR_DATE": "Sun, 19 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.840478,
+                "ADD_ABMA20_PERC": 0.829511,
+                "PR_DATE": "Thu, 16 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.845454,
+                "ADD_ABMA20_PERC": 0.785227,
+                "PR_DATE": "Wed, 15 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.841924,
+                "ADD_ABMA20_PERC": 0.780068,
+                "PR_DATE": "Tue, 14 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.823991,
+                "ADD_ABMA20_PERC": 0.738789,
+                "PR_DATE": "Mon, 13 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.807297,
+                "ADD_ABMA20_PERC": 0.771949,
+                "PR_DATE": "Sun, 12 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.766423,
+                "ADD_ABMA20_PERC": 0.778936,
+                "PR_DATE": "Thu, 09 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.778708,
+                "ADD_ABMA20_PERC": 0.778708,
+                "PR_DATE": "Wed, 08 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.750889,
+                "ADD_ABMA20_PERC": 0.754448,
+                "PR_DATE": "Tue, 07 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.770011,
+                "ADD_ABMA20_PERC": 0.811724,
+                "PR_DATE": "Mon, 06 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.790178,
+                "ADD_ABMA20_PERC": 0.84933,
+                "PR_DATE": "Sun, 05 Sep 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.732311,
+                "ADD_ABMA20_PERC": 0.794811,
+                "PR_DATE": "Tue, 31 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.685434,
+                "ADD_ABMA20_PERC": 0.789473,
+                "PR_DATE": "Mon, 30 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.678953,
+                "ADD_ABMA20_PERC": 0.743162,
+                "PR_DATE": "Sun, 29 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.60204,
+                "ADD_ABMA20_PERC": 0.638321,
+                "PR_DATE": "Thu, 26 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.588161,
+                "ADD_ABMA20_PERC": 0.579345,
+                "PR_DATE": "Wed, 25 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.598155,
+                "ADD_ABMA20_PERC": 0.555994,
+                "PR_DATE": "Tue, 24 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.576679,
+                "ADD_ABMA20_PERC": 0.533586,
+                "PR_DATE": "Mon, 23 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.569135,
+                "ADD_ABMA20_PERC": 0.58395,
+                "PR_DATE": "Sun, 22 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.596417,
+                "ADD_ABMA20_PERC": 0.685985,
+                "PR_DATE": "Thu, 19 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.653514,
+                "ADD_ABMA20_PERC": 0.832305,
+                "PR_DATE": "Wed, 18 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.637804,
+                "ADD_ABMA20_PERC": 0.818292,
+                "PR_DATE": "Tue, 17 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.619904,
+                "ADD_ABMA20_PERC": 0.818944,
+                "PR_DATE": "Mon, 16 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.611888,
+                "ADD_ABMA20_PERC": 0.846153,
+                "PR_DATE": "Sun, 15 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.585903,
+                "ADD_ABMA20_PERC": 0.828193,
+                "PR_DATE": "Thu, 12 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.577255,
+                "ADD_ABMA20_PERC": 0.850432,
+                "PR_DATE": "Wed, 11 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.551847,
+                "ADD_ABMA20_PERC": 0.849821,
+                "PR_DATE": "Tue, 10 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.531585,
+                "ADD_ABMA20_PERC": 0.815256,
+                "PR_DATE": "Mon, 09 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.505063,
+                "ADD_ABMA20_PERC": 0.802531,
+                "PR_DATE": "Sun, 08 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.465517,
+                "ADD_ABMA20_PERC": 0.763218,
+                "PR_DATE": "Thu, 05 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.449408,
+                "ADD_ABMA20_PERC": 0.755584,
+                "PR_DATE": "Wed, 04 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.432432,
+                "ADD_ABMA20_PERC": 0.67027,
+                "PR_DATE": "Tue, 03 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.419009,
+                "ADD_ABMA20_PERC": 0.603748,
+                "PR_DATE": "Mon, 02 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.417218,
+                "ADD_ABMA20_PERC": 0.556291,
+                "PR_DATE": "Sun, 01 Aug 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.412545,
+                "ADD_ABMA20_PERC": 0.525934,
+                "PR_DATE": "Thu, 29 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.395095,
+                "ADD_ABMA20_PERC": 0.438692,
+                "PR_DATE": "Wed, 28 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.395924,
+                "ADD_ABMA20_PERC": 0.37409,
+                "PR_DATE": "Tue, 27 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.395284,
+                "ADD_ABMA20_PERC": 0.373092,
+                "PR_DATE": "Mon, 26 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.392211,
+                "ADD_ABMA20_PERC": 0.308762,
+                "PR_DATE": "Sun, 25 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.389896,
+                "ADD_ABMA20_PERC": 0.282383,
+                "PR_DATE": "Thu, 22 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.402758,
+                "ADD_ABMA20_PERC": 0.292413,
+                "PR_DATE": "Wed, 21 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.367403,
+                "ADD_ABMA20_PERC": 0.232044,
+                "PR_DATE": "Tue, 20 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.358831,
+                "ADD_ABMA20_PERC": 0.184979,
+                "PR_DATE": "Mon, 19 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.322666,
+                "ADD_ABMA20_PERC": 0.157333,
+                "PR_DATE": "Sun, 18 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.397277,
+                "ADD_ABMA20_PERC": 0.226485,
+                "PR_DATE": "Thu, 15 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.382271,
+                "ADD_ABMA20_PERC": 0.162049,
+                "PR_DATE": "Wed, 14 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.346994,
+                "ADD_ABMA20_PERC": 0.132513,
+                "PR_DATE": "Tue, 13 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.370879,
+                "ADD_ABMA20_PERC": 0.133241,
+                "PR_DATE": "Mon, 12 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.328009,
+                "ADD_ABMA20_PERC": 0.109336,
+                "PR_DATE": "Sun, 11 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.447688,
+                "ADD_ABMA20_PERC": 0.227493,
+                "PR_DATE": "Thu, 08 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.472074,
+                "ADD_ABMA20_PERC": 0.261968,
+                "PR_DATE": "Wed, 07 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.461437,
+                "ADD_ABMA20_PERC": 0.284967,
+                "PR_DATE": "Tue, 06 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.486825,
+                "ADD_ABMA20_PERC": 0.297365,
+                "PR_DATE": "Mon, 05 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.55762,
+                "ADD_ABMA20_PERC": 0.420074,
+                "PR_DATE": "Sun, 04 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.588691,
+                "ADD_ABMA20_PERC": 0.512195,
+                "PR_DATE": "Thu, 01 Jul 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.595208,
+                "ADD_ABMA20_PERC": 0.527112,
+                "PR_DATE": "Wed, 30 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.596977,
+                "ADD_ABMA20_PERC": 0.52141,
+                "PR_DATE": "Tue, 29 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.625,
+                "ADD_ABMA20_PERC": 0.566176,
+                "PR_DATE": "Mon, 28 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.6419,
+                "ADD_ABMA20_PERC": 0.600487,
+                "PR_DATE": "Sun, 27 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.628604,
+                "ADD_ABMA20_PERC": 0.572087,
+                "PR_DATE": "Thu, 24 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.640926,
+                "ADD_ABMA20_PERC": 0.602316,
+                "PR_DATE": "Wed, 23 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.664215,
+                "ADD_ABMA20_PERC": 0.671568,
+                "PR_DATE": "Tue, 22 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.707878,
+                "ADD_ABMA20_PERC": 0.718787,
+                "PR_DATE": "Mon, 21 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.69534,
+                "ADD_ABMA20_PERC": 0.747909,
+                "PR_DATE": "Sun, 20 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.671009,
+                "ADD_ABMA20_PERC": 0.71444,
+                "PR_DATE": "Thu, 17 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.650314,
+                "ADD_ABMA20_PERC": 0.700628,
+                "PR_DATE": "Wed, 16 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.618757,
+                "ADD_ABMA20_PERC": 0.637028,
+                "PR_DATE": "Tue, 15 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.619926,
+                "ADD_ABMA20_PERC": 0.672816,
+                "PR_DATE": "Mon, 14 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.605392,
+                "ADD_ABMA20_PERC": 0.672794,
+                "PR_DATE": "Sun, 13 Jun 2021 17:00:00 GMT"
+            },
+            {
+                "ADD_ABMA100_PERC": 0.604212,
+                "ADD_ABMA20_PERC": 0.636363,
+                "PR_DATE": "Thu, 10 Jun 2021 17:00:00 GMT"
+            }
+        ]
+    }
+}
