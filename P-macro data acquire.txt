@@ -1,0 +1,203 @@
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+import requests
+
+url = 'http://dataservices.imf.org/REST/SDMX_JSON.svc/'
+
+# --------------CPI % YoY - Active
+
+# key = 'CompactData/IFS/M.VN.PCPI_PC_CP_A_PT' # adjust codes here
+# data = (requests.get(f'{url}{key}').json()
+#         ['CompactData']['DataSet']['Series'])
+# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
+#              for obs in data['Obs']]
+# df = pd.DataFrame(data_list, columns=['date', 'value'])
+# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
+# print(df)
+# title = f'VN CPI rate'
+# recentdt = df.index[-1].strftime('%B %Y')
+# recentval = round(df[-1], 1)
+# recent = f'Most recent: {recentdt}: {recentval}'
+# source = 'Source: IMF IFS'
+# plot = df.plot(title=title, colormap='Set1')
+# plot = plot.set_xlabel(f'{recent}; {source}')
+
+# --------------Unemployment Quarterly %
+
+# # key = 'CompactData/IFS/Q.VN.LUR_PT' # unemployment percent
+# key = 'CompactData/IFS/Q.VN.LU_PE_NUM' # number of unemployment
+# data = (requests.get(f'{url}{key}').json()
+#         ['CompactData']['DataSet']['Series'])
+# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
+#               for obs in data['Obs']]
+# df = pd.DataFrame(data_list, columns=['date', 'value'])
+# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
+# print(df)
+# title = f'VN Unemployment rate'
+# recentdt = df.index[-1].strftime('%B %Y')
+# recentval = round(df[-1], 1)
+# recent = f'Most recent: {recentdt}: {recentval}'
+# source = 'Source: IMF IFS'
+# plot = df.plot(title=title, colormap='Set1')
+# plot = plot.set_xlabel(f'{recent}; {source}')
+
+# # --------------GDP growth rate YoY - Active
+
+# key = 'CompactData/IFS/A.VN.NGDP_D_IX' # GDP INDEX
+# # key = 'CompactData/IFS/A.VN.NGDP_R_XDC' # GDP Real amount VND
+# data = (requests.get(f'{url}{key}').json()
+#         ['CompactData']['DataSet']['Series'])
+# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
+#               for obs in data['Obs']]
+# df = pd.DataFrame(data_list, columns=['date', 'value'])
+# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
+
+# # calculate simple returns
+# df = df.reset_index('date')
+# df.dropna(subset=["value"], inplace=True)
+# df.sort_values('date', inplace=True)
+# df["growth_rate"] = df["value"].pct_change()
+# # print(df)
+# title = f'VN GDP growth rate'
+# df_growth = df.drop("value", axis=1)
+# df_growth = df_growth.set_index('date')
+# print(df_growth)
+# source = 'Source: IMF IFS'
+# plot = df_growth.plot(title=title, colormap='Set1')
+
+# --------------Balance of Payments - Active
+
+# key = 'CompactData/IFS/A.VN.BFDLEXF_BP6_USD' # Balance of Payments
+# data = (requests.get(f'{url}{key}').json()
+#         ['CompactData']['DataSet']['Series'])
+# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
+#               for obs in data['Obs']]
+# df = pd.DataFrame(data_list, columns=['date', 'value'])
+# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
+# print(df)
+# title = f'VN Balance of payment'
+# recentdt = df.index[-1].strftime('%B %Y')
+# recentval = round(df[-1], 1)
+# recent = f'Most recent: {recentdt}: {recentval}'
+# source = 'Source: IMF IFS'
+# plot = df.plot(title=title, colormap='Set1')
+# plot = plot.set_xlabel(f'{recent}; {source}')
+
+
+# --------------VNDUSD rate - Active
+
+# key = 'CompactData/IFS/M.VN.ENDA_XDC_USD_RATE' # VNDUSD rate
+# data = (requests.get(f'{url}{key}').json()
+#         ['CompactData']['DataSet']['Series'])
+# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
+#               for obs in data['Obs']]
+# df = pd.DataFrame(data_list, columns=['date', 'value'])
+# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
+# print(df)
+# title = f'VN VNDUSD rate'
+# recentdt = df.index[-1].strftime('%B %Y')
+# recentval = round(df[-1], 1)
+# recent = f'Most recent: {recentdt}: {recentval}'
+# source = 'Source: IMF IFS'
+# plot = df.plot(title=title, colormap='Set1')
+# plot = plot.set_xlabel(f'{recent}; {source}')
+
+
+# --------------Export AMT - Active
+
+key = 'CompactData/IFS/A.VN.NX_R_XDC' # Export real amount VND
+data = (requests.get(f'{url}{key}').json()
+        ['CompactData']['DataSet']['Series'])
+data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
+              for obs in data['Obs']]
+df = pd.DataFrame(data_list, columns=['date', 'value'])
+df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
+print(df)
+title = f'VN Export AMT'
+recentdt = df.index[-1].strftime('%B %Y')
+recentval = round(df[-1], 1)
+recent = f'Most recent: {recentdt}: {recentval}'
+source = 'Source: IMF IFS'
+plot = df.plot(title=title, colormap='Set1')
+plot = plot.set_xlabel(f'{recent}; {source}')
+
+
+# --------------Lending annualized interest rate Monthly - Active
+
+# key = 'CompactData/IFS/M.VN.FILR_PA' # Lending interest rate
+# data = (requests.get(f'{url}{key}').json()
+#         ['CompactData']['DataSet']['Series'])
+# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
+#               for obs in data['Obs']]
+# df = pd.DataFrame(data_list, columns=['date', 'value'])
+# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
+# print(df)
+# title = f'VN Lending interest rate'
+# recentdt = df.index[-1].strftime('%B %Y')
+# recentval = round(df[-1], 1)
+# recent = f'Most recent: {recentdt}: {recentval}'
+# source = 'Source: IMF IFS'
+# plot = df.plot(title=title, colormap='Set1')
+# plot = plot.set_xlabel(f'{recent}; {source}')
+
+
+# --------------Deposit annualized interest rate Monthly - Active
+
+# key = 'CompactData/IFS/M.VN.FIDR_PA' # Deposit interest rate
+# data = (requests.get(f'{url}{key}').json()
+#         ['CompactData']['DataSet']['Series'])
+# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
+#               for obs in data['Obs']]
+# df = pd.DataFrame(data_list, columns=['date', 'value'])
+# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
+# print(df)
+# title = f'VN Deposit interest rate'
+# recentdt = df.index[-1].strftime('%B %Y')
+# recentval = round(df[-1], 1)
+# recent = f'Most recent: {recentdt}: {recentval}'
+# source = 'Source: IMF IFS'
+# plot = df.plot(title=title, colormap='Set1')
+# plot = plot.set_xlabel(f'{recent}; {source}')
+
+
+# --------------T-Bill annualized rate Monthly
+
+# key = 'CompactData/IFS/M.VN.FITB_PA' # T-Bill rate
+# data = (requests.get(f'{url}{key}').json()
+#         ['CompactData']['DataSet']['Series'])
+# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
+#               for obs in data['Obs']]
+# df = pd.DataFrame(data_list, columns=['date', 'value'])
+# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
+# print(df)
+# title = f'VN T-Bill interest rate'
+# recentdt = df.index[-1].strftime('%B %Y')
+# recentval = round(df[-1], 1)
+# recent = f'Most recent: {recentdt}: {recentval}'
+# source = 'Source: IMF IFS'
+# plot = df.plot(title=title, colormap='Set1')
+# plot = plot.set_xlabel(f'{recent}; {source}')
+
+
+# --------------Labor force % change YoY
+
+# key = 'CompactData/IFS/Q.VN.LLF_PE_PC_CP_A_PT' # Labor force % change YoY
+# data = (requests.get(f'{url}{key}').json()
+#         ['CompactData']['DataSet']['Series'])
+# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
+#               for obs in data['Obs']]
+# df = pd.DataFrame(data_list, columns=['date', 'value'])
+# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
+# print(df)
+# title = f'VN Labor force % change'
+# recentdt = df.index[-1].strftime('%B %Y')
+# recentval = round(df[-1], 1)
+# recent = f'Most recent: {recentdt}: {recentval}'
+# source = 'Source: IMF IFS'
+# plot = df.plot(title=title, colormap='Set1')
+# plot = plot.set_xlabel(f'{recent}; {source}')
+
+sns.despine()
+plt.tight_layout()
+plt.show()
