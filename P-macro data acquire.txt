@@ -205,7 +205,6 @@ plt.show()
 
 
 
-#---------------------------------------------------------------- GET VN10BY
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -216,157 +215,170 @@ import json
 
 # ----------------------GET DATA HISTORICAL 10VNBY
 
-url = "https://www.worldgovernmentbonds.com/wp-admin/admin-ajax.php?action=jsonStoricoBond&area=58&dateRif=2099-12-31&durata=120&key=d1RHRzY4aE16dU9TaXRvSndPWVBEdz09"
+url_10 = "https://www.worldgovernmentbonds.com/wp-admin/admin-ajax.php?action=jsonStoricoBond&area=58&dateRif=2099-12-31&durata=120&key=d1RHRzY4aE16dU9TaXRvSndPWVBEdz09"
 
-response = requests.get(url).text
-data = json.loads(response)  # Parse the JSON data directly
+response_10 = requests.get(url_10).text
+data_10 = json.loads(response_10)  # Parse the JSON data directly
 # print(data_dict)
 
 # Convert to DataFrame
-df = pd.DataFrame.from_dict(data['quote'], orient='index', columns=['date', 'bond_y'])
+df_10 = pd.DataFrame.from_dict(data_10['quote'], orient='index', columns=['date', 'bond_10y'])
 
 # Convert timestamp to readable date format
-df['date'] = pd.to_datetime(df['date'], unit='ms')
+df_10['date'] = pd.to_datetime(df_10['date'], unit='ms')
 
 
 # ----------------------GET DATA FORECAST 10VNBY
 
 
-url = ('http://www.worldgovernmentbonds.com/bond-forecast/vietnam/10-years/')
-r = requests.get(url)
+url_10f = ('http://www.worldgovernmentbonds.com/bond-forecast/vietnam/10-years/')
+r_10f = requests.get(url_10f)
 # print(r.text)
 
 # Get time forecast
-web_content = BeautifulSoup(r.text, 'lxml')
-web_content = web_content.find('div', {"class" : 'w3-responsive'})
-web_content = web_content.find('thead').text
+web_content_10f = BeautifulSoup(r_10f.text, 'lxml')
+web_content_10f = web_content_10f.find('div', {"class" : 'w3-responsive'})
+web_content_10f = web_content_10f.find('thead').text
 # print(web_content)
 
 # Use regular expression to find lines with dates in MMM YYYY format
 pattern = r'(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \d{4}'
-dates = re.findall(pattern, web_content)
+dates_10f = re.findall(pattern, web_content_10f)
 
 # Convert month-year strings to datetime objects with day set to 1
-date_objects = [datetime.strptime(date, '%b %Y') for date in dates]
+date_objects_10f = [datetime.strptime(date, '%b %Y') for date in dates_10f]
 
-date = []
+date_10f = []
 # Print the converted date objects
-for date_obj in date_objects:
-    date.append(date_obj)
+for date_obj_10f in date_objects_10f:
+    date_10f.append(date_obj_10f)
 
-date = pd.DataFrame({'date': date})
+date_10f = pd.DataFrame({'date': date_10f})
 # print(date)
 
 # Get number forecast
-web_number = BeautifulSoup(r.text, 'lxml')
-web_number = web_number.find('div', {"class" : 'w3-responsive'})
-web_number = web_number.find('tbody')
-web_number = web_number.find('tr').text
+web_number_10f = BeautifulSoup(r_10f.text, 'lxml')
+web_number_10f = web_number_10f.find('div', {"class" : 'w3-responsive'})
+web_number_10f = web_number_10f.find('tbody')
+web_number_10f = web_number_10f.find('tr').text
 
 # # Use regular expression to find lines with '%'
 pattern = r'^\d+\.\d+%$'
-lines_with_percent = re.findall(pattern, web_number, re.MULTILINE)
+lines_with_percent_10f = re.findall(pattern, web_number_10f, re.MULTILINE)
 
 # Print the matching lines
-bond_y = []
-for line in lines_with_percent:
-    bond_y.append(line)
+bond_y_10f = []
+for line in lines_with_percent_10f:
+    bond_y_10f.append(line)
 
-bond_y = pd.DataFrame({'bond_y': bond_y})
+bond_y_10f = pd.DataFrame({'bond_10y': bond_y_10f})
 # print(bond_y)
 
 # Consolidate the two DataFrames into one
-consolidated_df = pd.concat([date, bond_y], axis=1)
+consolidated_df_10f = pd.concat([date_10f, bond_y_10f], axis=1)
 
 # Remove the '%' symbol
-consolidated_df['bond_y'] = consolidated_df['bond_y'].str.replace('%', '')
+consolidated_df_10f['bond_10y'] = consolidated_df_10f['bond_10y'].str.replace('%', '')
 
 # Convert the 'bond_y' column to numeric
-consolidated_df['bond_y'] = pd.to_numeric(consolidated_df['bond_y'])
+consolidated_df_10f['bond_10y'] = pd.to_numeric(consolidated_df_10f['bond_10y'])
 
 
 # --------------------COMBINE DATAFRAME
 
-df_combined = pd.concat([df, consolidated_df], ignore_index=True).dropna(subset=['bond_y'])
+df_combined_10f = pd.concat([df_10, consolidated_df_10f], ignore_index=True).dropna(subset=['bond_10y'])
 
+# REMOVE DUPLICATE LIST
+df_combined_10f = df_combined_10f.drop_duplicates(subset=['date'], keep='last')
 
 # ----------------------GET DATA HISTORICAL 02VNBY
 
-url = "https://www.worldgovernmentbonds.com/wp-admin/admin-ajax.php?action=jsonStoricoBond&area=58&dateRif=2099-12-31&durata=24&key=dENuNGVDdERQdUh6ZEhqZTBOWnN5Zz09"
+url_2 = "https://www.worldgovernmentbonds.com/wp-admin/admin-ajax.php?action=jsonStoricoBond&area=58&dateRif=2099-12-31&durata=24&key=dENuNGVDdERQdUh6ZEhqZTBOWnN5Zz09"
 
-response = requests.get(url).text
-data = json.loads(response)  # Parse the JSON data directly
+response_2 = requests.get(url_2).text
+data_2 = json.loads(response_2)  # Parse the JSON data directly
 # print(data_dict)
 
 # Convert to DataFrame
-df = pd.DataFrame.from_dict(data['quote'], orient='index', columns=['date', 'bond_y'])
+df_2 = pd.DataFrame.from_dict(data_2['quote'], orient='index', columns=['date', 'bond_2y'])
 
 # Convert timestamp to readable date format
-df['date'] = pd.to_datetime(df['date'], unit='ms')
+df_2['date'] = pd.to_datetime(df_2['date'], unit='ms')
 
 
-# ----------------------GET DATA FORECAST 02VNBY
+# ----------------------GET DATA FORECAST 10VNBY
 
 
-url = ('http://www.worldgovernmentbonds.com/bond-forecast/vietnam/2-years/')
-r = requests.get(url)
+url_2f = ('http://www.worldgovernmentbonds.com/bond-forecast/vietnam/2-years/')
+r_2f = requests.get(url_2f)
 # print(r.text)
 
 # Get time forecast
-web_content = BeautifulSoup(r.text, 'lxml')
-web_content = web_content.find('div', {"class" : 'w3-responsive'})
-web_content = web_content.find('thead').text
+web_content_2f = BeautifulSoup(r_2f.text, 'lxml')
+web_content_2f = web_content_2f.find('div', {"class" : 'w3-responsive'})
+web_content_2f = web_content_2f.find('thead').text
 # print(web_content)
 
 # Use regular expression to find lines with dates in MMM YYYY format
 pattern = r'(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \d{4}'
-dates = re.findall(pattern, web_content)
+dates_2f = re.findall(pattern, web_content_2f)
 
 # Convert month-year strings to datetime objects with day set to 1
-date_objects = [datetime.strptime(date, '%b %Y') for date in dates]
+date_objects_2f = [datetime.strptime(date, '%b %Y') for date in dates_2f]
 
-date = []
+date_2f = []
 # Print the converted date objects
-for date_obj in date_objects:
-    date.append(date_obj)
+for date_obj_2f in date_objects_2f:
+    date_2f.append(date_obj_2f)
 
-date = pd.DataFrame({'date': date})
+date_2f = pd.DataFrame({'date': date_2f})
 # print(date)
 
 # Get number forecast
-web_number = BeautifulSoup(r.text, 'lxml')
-web_number = web_number.find('div', {"class" : 'w3-responsive'})
-web_number = web_number.find('tbody')
-web_number = web_number.find('tr').text
+web_number_2f = BeautifulSoup(r_2f.text, 'lxml')
+web_number_2f = web_number_2f.find('div', {"class" : 'w3-responsive'})
+web_number_2f = web_number_2f.find('tbody')
+web_number_2f = web_number_2f.find('tr').text
 
 # # Use regular expression to find lines with '%'
 pattern = r'^\d+\.\d+%$'
-lines_with_percent = re.findall(pattern, web_number, re.MULTILINE)
+lines_with_percent_2f = re.findall(pattern, web_number_2f, re.MULTILINE)
 
 # Print the matching lines
-bond_y = []
-for line in lines_with_percent:
-    bond_y.append(line)
+bond_y_2f = []
+for line in lines_with_percent_2f:
+    bond_y_2f.append(line)
 
-bond_y = pd.DataFrame({'bond_y': bond_y})
+bond_y_2f = pd.DataFrame({'bond_2y': bond_y_2f})
 # print(bond_y)
 
 # Consolidate the two DataFrames into one
-consolidated_df = pd.concat([date, bond_y], axis=1)
+consolidated_df_2f = pd.concat([date_2f, bond_y_2f], axis=1)
 
 # Remove the '%' symbol
-consolidated_df['bond_y'] = consolidated_df['bond_y'].str.replace('%', '')
+consolidated_df_2f['bond_2y'] = consolidated_df_2f['bond_2y'].str.replace('%', '')
 
 # Convert the 'bond_y' column to numeric
-consolidated_df['bond_y'] = pd.to_numeric(consolidated_df['bond_y'])
+consolidated_df_2f['bond_2y'] = pd.to_numeric(consolidated_df_2f['bond_2y'])
 
 
 # --------------------COMBINE DATAFRAME
 
-df_combined = pd.concat([df, consolidated_df], ignore_index=True).dropna(subset=['bond_y'])
+df_combined_2f = pd.concat([df_2, consolidated_df_2f], ignore_index=True).dropna(subset=['bond_2y'])
 
+# REMOVE DUPLICATE LIST
+df_combined_2f = df_combined_2f.drop_duplicates(subset=['date'], keep='last')
+
+# JOIN 2 DATAFRAME
+df_combined = pd.merge(df_combined_10f, df_combined_2f, how="left"\
+              , left_on=['date']\
+              , right_on=['date']\
+              , validate="1:1")
+    
+    
 # Print the consolidated DataFrame
 print(df_combined)
+df_combined.to_csv("sample1.csv")
 
 
 #---------------------------------------------------------------- GET USDVND
