@@ -1,216 +1,10 @@
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
-import requests
-
-url = 'http://dataservices.imf.org/REST/SDMX_JSON.svc/'
-
-# --------------CPI % YoY - Active
-
-# key = 'CompactData/IFS/M.VN.PCPI_PC_CP_A_PT' # adjust codes here
-# data = (requests.get(f'{url}{key}').json()
-#         ['CompactData']['DataSet']['Series'])
-# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
-#              for obs in data['Obs']]
-# df = pd.DataFrame(data_list, columns=['date', 'value'])
-# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
-# print(df)
-# title = f'VN CPI rate'
-# recentdt = df.index[-1].strftime('%B %Y')
-# recentval = round(df[-1], 1)
-# recent = f'Most recent: {recentdt}: {recentval}'
-# source = 'Source: IMF IFS'
-# plot = df.plot(title=title, colormap='Set1')
-# plot = plot.set_xlabel(f'{recent}; {source}')
-
-# --------------Unemployment Quarterly %
-
-# # key = 'CompactData/IFS/Q.VN.LUR_PT' # unemployment percent
-# key = 'CompactData/IFS/Q.VN.LU_PE_NUM' # number of unemployment
-# data = (requests.get(f'{url}{key}').json()
-#         ['CompactData']['DataSet']['Series'])
-# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
-#               for obs in data['Obs']]
-# df = pd.DataFrame(data_list, columns=['date', 'value'])
-# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
-# print(df)
-# title = f'VN Unemployment rate'
-# recentdt = df.index[-1].strftime('%B %Y')
-# recentval = round(df[-1], 1)
-# recent = f'Most recent: {recentdt}: {recentval}'
-# source = 'Source: IMF IFS'
-# plot = df.plot(title=title, colormap='Set1')
-# plot = plot.set_xlabel(f'{recent}; {source}')
-
-# # --------------GDP growth rate YoY - Active
-
-# key = 'CompactData/IFS/A.VN.NGDP_D_IX' # GDP INDEX
-# # key = 'CompactData/IFS/A.VN.NGDP_R_XDC' # GDP Real amount VND
-# data = (requests.get(f'{url}{key}').json()
-#         ['CompactData']['DataSet']['Series'])
-# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
-#               for obs in data['Obs']]
-# df = pd.DataFrame(data_list, columns=['date', 'value'])
-# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
-
-# # calculate simple returns
-# df = df.reset_index('date')
-# df.dropna(subset=["value"], inplace=True)
-# df.sort_values('date', inplace=True)
-# df["growth_rate"] = df["value"].pct_change()
-# # print(df)
-# title = f'VN GDP growth rate'
-# df_growth = df.drop("value", axis=1)
-# df_growth = df_growth.set_index('date')
-# print(df_growth)
-# source = 'Source: IMF IFS'
-# plot = df_growth.plot(title=title, colormap='Set1')
-
-# --------------Balance of Payments - Active
-
-# key = 'CompactData/IFS/A.VN.BFDLEXF_BP6_USD' # Balance of Payments
-# data = (requests.get(f'{url}{key}').json()
-#         ['CompactData']['DataSet']['Series'])
-# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
-#               for obs in data['Obs']]
-# df = pd.DataFrame(data_list, columns=['date', 'value'])
-# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
-# print(df)
-# title = f'VN Balance of payment'
-# recentdt = df.index[-1].strftime('%B %Y')
-# recentval = round(df[-1], 1)
-# recent = f'Most recent: {recentdt}: {recentval}'
-# source = 'Source: IMF IFS'
-# plot = df.plot(title=title, colormap='Set1')
-# plot = plot.set_xlabel(f'{recent}; {source}')
-
-
-# --------------VNDUSD rate - Active
-
-# key = 'CompactData/IFS/M.VN.ENDA_XDC_USD_RATE' # VNDUSD rate
-# data = (requests.get(f'{url}{key}').json()
-#         ['CompactData']['DataSet']['Series'])
-# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
-#               for obs in data['Obs']]
-# df = pd.DataFrame(data_list, columns=['date', 'value'])
-# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
-# print(df)
-# title = f'VN VNDUSD rate'
-# recentdt = df.index[-1].strftime('%B %Y')
-# recentval = round(df[-1], 1)
-# recent = f'Most recent: {recentdt}: {recentval}'
-# source = 'Source: IMF IFS'
-# plot = df.plot(title=title, colormap='Set1')
-# plot = plot.set_xlabel(f'{recent}; {source}')
-
-
-# --------------Export AMT - Active
-
-key = 'CompactData/IFS/A.VN.NX_R_XDC' # Export real amount VND
-data = (requests.get(f'{url}{key}').json()
-        ['CompactData']['DataSet']['Series'])
-data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
-              for obs in data['Obs']]
-df = pd.DataFrame(data_list, columns=['date', 'value'])
-df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
-print(df)
-title = f'VN Export AMT'
-recentdt = df.index[-1].strftime('%B %Y')
-recentval = round(df[-1], 1)
-recent = f'Most recent: {recentdt}: {recentval}'
-source = 'Source: IMF IFS'
-plot = df.plot(title=title, colormap='Set1')
-plot = plot.set_xlabel(f'{recent}; {source}')
-
-
-# --------------Lending annualized interest rate Monthly - Active
-
-# key = 'CompactData/IFS/M.VN.FILR_PA' # Lending interest rate
-# data = (requests.get(f'{url}{key}').json()
-#         ['CompactData']['DataSet']['Series'])
-# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
-#               for obs in data['Obs']]
-# df = pd.DataFrame(data_list, columns=['date', 'value'])
-# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
-# print(df)
-# title = f'VN Lending interest rate'
-# recentdt = df.index[-1].strftime('%B %Y')
-# recentval = round(df[-1], 1)
-# recent = f'Most recent: {recentdt}: {recentval}'
-# source = 'Source: IMF IFS'
-# plot = df.plot(title=title, colormap='Set1')
-# plot = plot.set_xlabel(f'{recent}; {source}')
-
-
-# --------------Deposit annualized interest rate Monthly - Active
-
-# key = 'CompactData/IFS/M.VN.FIDR_PA' # Deposit interest rate
-# data = (requests.get(f'{url}{key}').json()
-#         ['CompactData']['DataSet']['Series'])
-# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
-#               for obs in data['Obs']]
-# df = pd.DataFrame(data_list, columns=['date', 'value'])
-# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
-# print(df)
-# title = f'VN Deposit interest rate'
-# recentdt = df.index[-1].strftime('%B %Y')
-# recentval = round(df[-1], 1)
-# recent = f'Most recent: {recentdt}: {recentval}'
-# source = 'Source: IMF IFS'
-# plot = df.plot(title=title, colormap='Set1')
-# plot = plot.set_xlabel(f'{recent}; {source}')
-
-
-# --------------T-Bill annualized rate Monthly
-
-# key = 'CompactData/IFS/M.VN.FITB_PA' # T-Bill rate
-# data = (requests.get(f'{url}{key}').json()
-#         ['CompactData']['DataSet']['Series'])
-# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
-#               for obs in data['Obs']]
-# df = pd.DataFrame(data_list, columns=['date', 'value'])
-# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
-# print(df)
-# title = f'VN T-Bill interest rate'
-# recentdt = df.index[-1].strftime('%B %Y')
-# recentval = round(df[-1], 1)
-# recent = f'Most recent: {recentdt}: {recentval}'
-# source = 'Source: IMF IFS'
-# plot = df.plot(title=title, colormap='Set1')
-# plot = plot.set_xlabel(f'{recent}; {source}')
-
-
-# --------------Labor force % change YoY
-
-# key = 'CompactData/IFS/Q.VN.LLF_PE_PC_CP_A_PT' # Labor force % change YoY
-# data = (requests.get(f'{url}{key}').json()
-#         ['CompactData']['DataSet']['Series'])
-# data_list = [[obs.get('@TIME_PERIOD'), obs.get('@OBS_VALUE')]
-#               for obs in data['Obs']]
-# df = pd.DataFrame(data_list, columns=['date', 'value'])
-# df = df.set_index(pd.to_datetime(df['date']))['value'].astype('float')
-# print(df)
-# title = f'VN Labor force % change'
-# recentdt = df.index[-1].strftime('%B %Y')
-# recentval = round(df[-1], 1)
-# recent = f'Most recent: {recentdt}: {recentval}'
-# source = 'Source: IMF IFS'
-# plot = df.plot(title=title, colormap='Set1')
-# plot = plot.set_xlabel(f'{recent}; {source}')
-
-sns.despine()
-plt.tight_layout()
-plt.show()
-
-
-
-
 import requests
 from bs4 import BeautifulSoup
 import re
 from datetime import datetime
 import pandas as pd
 import json
+import numpy as np
 
 
 # ----------------------GET DATA HISTORICAL 10VNBY
@@ -227,6 +21,11 @@ df_10 = pd.DataFrame.from_dict(data_10['quote'], orient='index', columns=['date'
 # Convert timestamp to readable date format
 df_10['date'] = pd.to_datetime(df_10['date'], unit='ms')
 
+
+df_combined_10f = pd.concat([df_10], ignore_index=True).dropna(subset=['bond_10y'])
+
+# REMOVE DUPLICATE LIST
+df_combined_10f = df_combined_10f.drop_duplicates(subset=['date'], keep='last')
 
 # ----------------------GET DATA FORECAST 10VNBY
 
@@ -283,10 +82,9 @@ consolidated_df_10f['bond_10y'] = consolidated_df_10f['bond_10y'].str.replace('%
 # Convert the 'bond_y' column to numeric
 consolidated_df_10f['bond_10y'] = pd.to_numeric(consolidated_df_10f['bond_10y'])
 
+# COMBINE DATAFRAME
 
-# --------------------COMBINE DATAFRAME
-
-df_combined_10f = pd.concat([df_10, consolidated_df_10f], ignore_index=True).dropna(subset=['bond_10y'])
+df_combined_10f = pd.concat([df_combined_10f, consolidated_df_10f], ignore_index=True).dropna(subset=['bond_10y'])
 
 # REMOVE DUPLICATE LIST
 df_combined_10f = df_combined_10f.drop_duplicates(subset=['date'], keep='last')
@@ -305,8 +103,12 @@ df_2 = pd.DataFrame.from_dict(data_2['quote'], orient='index', columns=['date', 
 # Convert timestamp to readable date format
 df_2['date'] = pd.to_datetime(df_2['date'], unit='ms')
 
+df_combined_2f = pd.concat([df_2], ignore_index=True).dropna(subset=['bond_2y'])
 
-# ----------------------GET DATA FORECAST 10VNBY
+# REMOVE DUPLICATE LIST
+df_combined_2f = df_combined_2f.drop_duplicates(subset=['date'], keep='last')
+
+# ----------------------GET DATA FORECAST 2VNBY
 
 
 url_2f = ('http://www.worldgovernmentbonds.com/bond-forecast/vietnam/2-years/')
@@ -361,29 +163,59 @@ consolidated_df_2f['bond_2y'] = consolidated_df_2f['bond_2y'].str.replace('%', '
 # Convert the 'bond_y' column to numeric
 consolidated_df_2f['bond_2y'] = pd.to_numeric(consolidated_df_2f['bond_2y'])
 
+# COMBINE DATAFRAME
 
-# --------------------COMBINE DATAFRAME
-
-df_combined_2f = pd.concat([df_2, consolidated_df_2f], ignore_index=True).dropna(subset=['bond_2y'])
+df_combined_2f = pd.concat([df_combined_2f, consolidated_df_2f], ignore_index=True).dropna(subset=['bond_2y'])
 
 # REMOVE DUPLICATE LIST
 df_combined_2f = df_combined_2f.drop_duplicates(subset=['date'], keep='last')
+
+# --------------------COMBINE DATAFRAME
 
 # JOIN 2 DATAFRAME
 df_combined = pd.merge(df_combined_10f, df_combined_2f, how="left"\
               , left_on=['date']\
               , right_on=['date']\
               , validate="1:1")
+
+# -----------------------GET DATA OMO
+
+# Load your data
+omo_df = pd.read_csv('C:\\Users\\417776\\Downloads\\Python\\fin\\macro data\\OMO.csv')
+omo_df['date'] = pd.to_datetime(omo_df['Date'])
+omo_df = omo_df[['date', 'OMO', 'OMO_balance']]
+
+# Load your data update
+omo_df2 = pd.read_excel('C:\\Users\\417776\\Downloads\\Python\\fin\\macro data\\OMO_update.xlsx', sheet_name = 'OMO_update')    
+omo_df2['date'] = pd.to_datetime(omo_df2['Date'])
+omo_df2['OMO'] = omo_df2['Trans_amt']
+
+omo_df2['OMO_balance'] = omo_df2['Balance']
+
+omo_df2 = omo_df2[['date', 'OMO', 'OMO_balance']]
+
+
+# COMBINE DATAFRAME
+combined_omo_df = pd.concat([omo_df, omo_df2], ignore_index=True)
+
+# REMOVE DUPLICATE LIST
+combined_omo_df = combined_omo_df.drop_duplicates(subset=['date'], keep='last')
+
+# Calculate cumulative sum
+combined_omo_df['OMO_cum'] = np.cumsum(combined_omo_df['OMO'])
+
+# JOIN 2 DATAFRAME
+df_combined3 = pd.merge(df_combined, combined_omo_df, how="left"\
+              , left_on=['date']\
+              , right_on=['date']\
+              , validate="1:1")
+
+df_combined3['OMO_balance'] = df_combined3['OMO_balance'].fillna(method='ffill').fillna(method='bfill')
+df_combined3['OMO_cum'] = df_combined3['OMO_cum'].fillna(method='ffill').fillna(method='bfill')
     
-    
-# Print the consolidated DataFrame
-print(df_combined)
-df_combined.to_csv("sample1.csv")
 
+# -----------------------GET DATA VNDUSD
 
-#---------------------------------------------------------------- GET USDVND
-
-import pandas as pd
 from pycoingecko import CoinGeckoAPI
 
 cg = CoinGeckoAPI()
@@ -391,12 +223,8 @@ cg = CoinGeckoAPI()
 # Get a list of all supported coins
 coins_list = cg.get_coins_list()
 
-
 # Filter coins based on symbol
-coins_list = filter(lambda coin: coin['id'] in ["usd"], coins_list)
-# coin_id = pd.DataFrame(coins_list['id'])
-# print(pd.DataFrame(coins_list))
-# pd.DataFrame(coins_list).to_csv("vnd_usd_exchange_rate.csv")
+coins_list = filter(lambda coin: coin['id'] in ["usd"], coins_list)    
 
 # Initialize an empty list to store OHLC data
 all_coin_data = []
@@ -419,9 +247,293 @@ for coin in coins_list:
     all_coin_data.append(ohlc_df)
 
 # Concatenate dataframes for all coins
-result_df = pd.concat(all_coin_data, ignore_index=True)
+forex_pd = pd.concat(all_coin_data, ignore_index=True)
+forex_pd['VNDUSD'] = forex_pd['close']
+forex_pd = forex_pd[['date', 'VNDUSD']]
 
-result_df.to_csv("sample.csv")
 
-# Print the first few rows of the combined dataframe
-print(result_df.head())
+# # JOIN 2 DATAFRAME
+# df_combined2 = pd.merge(df_combined, forex_pd, how="left"\
+#               , left_on=['date']\
+#               , right_on=['date']\
+#               , validate="1:1")
+
+# GET DATA VNDUSD_excel
+# Load your data
+vndusd_df = pd.read_csv('C:\\Users\\417776\\Downloads\\Python\\fin\\macro data\\VNDUSD_consol.csv')
+vndusd_df['date'] = pd.to_datetime(vndusd_df['date'])
+vndusd_df = vndusd_df[['date', 'VNDUSD']]
+
+# COMBINE DATAFRAME
+combined_vndusd_df = pd.concat([forex_pd, vndusd_df], ignore_index=True).dropna(subset=['VNDUSD'])
+
+# REMOVE DUPLICATE LIST
+combined_vndusd_df = combined_vndusd_df.drop_duplicates(subset=['date'], keep='last')
+
+# JOIN 2 DATAFRAME
+df_combined3 = pd.merge(df_combined3, combined_vndusd_df, how="left"\
+              , left_on=['date']\
+              , right_on=['date']\
+              , validate="1:1")
+
+df_combined3['VNDUSD'] = df_combined3['VNDUSD'].fillna(method='ffill').fillna(method='bfill')
+    
+# -----------------------GET DATA VNINT_consol
+
+# Load your data
+vnint_df = pd.read_csv('C:\\Users\\417776\\Downloads\\Python\\fin\\macro data\\VNInterest_consol.csv')
+vnint_df['date'] = pd.to_datetime(vnint_df['date'])
+vnint_df = vnint_df[['date', 'VN_INT_3M']]
+
+# JOIN 2 DATAFRAME
+df_combined3 = pd.merge(df_combined3, vnint_df, how="left"\
+              , left_on=['date']\
+              , right_on=['date']\
+              , validate="1:1")
+
+df_combined3['VN_INT_3M'] = df_combined3['VN_INT_3M'].fillna(method='ffill').fillna(method='bfill')
+
+# -----------------------GET DATA VNINDEX
+
+# Load your data update
+index_df = pd.read_excel('C:\\Users\\417776\\Downloads\\Python\\fin\\macro data\\vnin.xlsx', sheet_name = 'Sheet1')    
+index_df['date'] = pd.to_datetime(index_df['Date/Time'])
+index_df = index_df[['date', 'index']]
+
+# JOIN 2 DATAFRAME
+df_combined3 = pd.merge(df_combined3, index_df, how="left"\
+              , left_on=['date']\
+              , right_on=['date']\
+              , validate="1:1")
+
+df_combined3['index'] = df_combined3['index'].fillna(method='ffill').fillna(method='bfill')
+
+# Filter
+# df_combined3 = df_combined3[df_combined3.date >= "16-09-2019"]
+df_combined3 = df_combined3[df_combined3.date >= "22-09-2022"]
+df_combined3['bond_gap'] = df_combined3['bond_10y']-df_combined3['bond_2y']
+
+# Print the consolidated DataFrame
+print(df_combined3)
+df_combined3.to_csv("sample1.csv")
+
+
+
+
+
+# --------------------------------------------------------Non-Linear regression to predict
+
+
+
+
+
+import pandas as pd
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import TimeSeriesSplit
+from sklearn.metrics import mean_squared_error, r2_score
+import matplotlib.pyplot as plt
+from sklearn.inspection import partial_dependence
+import numpy as np
+
+data_file = r'C:\Users\417776\Downloads\Python\fin\macro data\sample1.csv'
+
+
+# Load your DataFrame (replace 'your_data.csv' with your actual data file)
+df = pd.read_csv(data_file)
+# df = df.head(2000)
+print(df)
+
+# Separate features (X) and target (y)
+X = df[['bond_gap', 'VNDUSD', 'VN_INT_3M' , 'OMO_cum' ]]
+y = df['index']
+# print(X)
+
+# Initialize Random Forest model
+model = RandomForestRegressor(n_estimators=100, max_depth=10, random_state=42)
+
+# Walk-forward validation
+tscv = TimeSeriesSplit(n_splits=5)
+for train_index, test_index in tscv.split(X):
+    X_train, X_test = X.iloc[train_index], X.iloc[test_index]
+    y_train, y_test = y.iloc[train_index], y.iloc[test_index]
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
+    mse = mean_squared_error(y_test, y_pred)
+    print(f"Fold MSE: {mse:.4f}")
+
+# Train the final model on the entire dataset
+model.fit(X, y)
+
+# Make predictions on the test set
+y_pred = model.predict(X_test)
+
+# Evaluate model performance (optional)
+mse = mean_squared_error(y_test, y_pred)
+print(f"Mean Squared Error: {mse:.2f}")
+
+# Print the most important features
+important_features_dict = {}
+for idx, val in enumerate(model.feature_importances_):
+    important_features_dict[idx] = val
+
+important_features_list = sorted(important_features_dict, key=important_features_dict.get, reverse=True)
+print(f'The most important features are: {important_features_list}')
+
+# Print all the attributes
+print(f'The coefficient of determination R^2 of the prediction is: {model.score(X_test, y_test)}')
+# print(f'The number of trees in the forest is: {model.n_estimators}')
+# print(f'The function to measure the quality of a split is: {model.criterion}')
+# print(f'The maximum depth of the tree is: {model.max_depth}')
+# print(f'The minimum number of samples required to split an internal node is: {model.min_samples_split}')
+# print(f'The minimum number of samples required to be at a leaf node is: {model.min_samples_leaf}')
+# print(f'The output for a given input is: {model.predict(X_test)}')
+# print(f'The list of decision trees in the forest is: {model.estimators_}')
+
+# ------------Sensitivity analysis
+# Drop duplicate rows
+X_copy = X.copy()
+X_unique = X_copy.drop_duplicates()
+
+# Predict RenewalRate for each row in X_unique
+predictions_index = model.predict(X_unique)
+
+# # Add the predicted RenewalRate values to X_unique
+X_unique['predicted_index'] = predictions_index
+
+print(X_unique)
+X_unique.to_csv("predicted_index.csv")
+
+# # Visualize relationships (optional)
+# plt.scatter(X_test['VNDUSD'], y_test, label='index')
+# plt.scatter(X_test['VNDUSD'], y_pred, label='predicted_index', color='red', marker='x')
+# plt.xlabel('VNDUSD')
+# plt.ylabel('index')
+# plt.title('VNDUSD vs. index')
+# plt.legend()
+# plt.show()
+
+
+# Visual Scatter plot of y_test vs y_pred
+plt.figure(figsize=(10, 6))
+plt.scatter(y_test, y_pred, alpha=0.5)
+plt.xlabel('Actual values (y_test)')
+plt.ylabel('Predicted values (y_pred)')
+plt.title('Actual vs Predicted values')
+
+# Draw a red line to visualize the trend and distribution
+z = np.polyfit(y_test, y_pred, 1)
+p = np.poly1d(z)
+plt.plot(y_test, p(y_test), "r--")
+
+plt.show()
+
+# ----------------------Forecast manually 
+
+# Define the forecasted x input
+fc_data = pd.DataFrame([[2.000, 24500, 1.5, 50000]], columns=['bond_gap', 'VNDUSD', 'VN_INT_3M', 'OMO_cum'])
+
+# Predict the value
+y_pred1 = model.predict(fc_data)
+
+print(f"Predicted value1: {y_pred1[0]}")
+
+
+# ------------------------Retrain
+# Create a linear regression model
+model2 = RandomForestRegressor(n_estimators=100, max_depth=10, random_state=42)
+
+# Train the model
+model2.fit(np.array(y_pred).reshape(-1, 1), y_test)
+
+# Make predictions
+y_pred2 = model2.predict(np.array(y_pred1).reshape(-1, 1))
+
+print(f"Predicted value2: {y_pred2[0]}")
+
+
+
+
+# --------------------------------------------------------Linear regression to predict
+
+
+
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+data_file = r'C:\Users\417776\Downloads\Python\fin\macro data\sample1.csv'
+
+df = pd.read_csv(data_file)
+
+# Define features (X) and target (y)
+X = df[['bond_gap', 'VNDUSD', 'VN_INT_3M' , 'OMO_cum']]
+y = df['index']
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Create a linear regression model
+model = LinearRegression()
+
+# Train the model
+model.fit(X_train, y_train)
+
+# Make predictions
+y_pred = model.predict(X_test)
+
+# Evaluate the model
+mse = mean_squared_error(y_test, y_pred)
+r2 = r2_score(y_test, y_pred)
+
+print(f'Mean Squared Error: {mse}')
+print(f'R^2 Score: {r2}')
+
+# Print model coefficients
+print('Coefficients:', model.coef_)
+print('Intercept:', model.intercept_)
+
+# Visual Scatter plot of y_test vs y_pred
+plt.figure(figsize=(10, 6))
+plt.scatter(y_test, y_pred, alpha=0.5)
+plt.xlabel('Actual values (y_test)')
+plt.ylabel('Predicted values (y_pred)')
+plt.title('Actual vs Predicted values')
+
+# Draw a red line to visualize the trend and distribution
+z = np.polyfit(y_test, y_pred, 1)
+p = np.poly1d(z)
+plt.plot(y_test, p(y_test), "r--")
+
+plt.show()
+
+# ----------------------Forecast manually
+# Define the forecasted x input
+fc_data = pd.DataFrame([[2.500, 24500, 1.0, 150000],
+                        [2.000, 24500, 2.0, 0],
+                        [1.500, 24500, 3.0, -150000]], columns=['bond_gap', 'VNDUSD', 'VN_INT_3M', 'OMO_cum'])
+
+# Predict the value
+y_pred1 = model.predict(fc_data)
+
+print(f"Predicted value: {y_pred[0]}")
+
+# ------------------------Retrain
+# Create a linear regression model
+model2 = LinearRegression()
+
+# Train the model
+model2.fit(np.array(y_pred).reshape(-1, 1), y_test)
+
+# Make predictions
+y_pred2 = model2.predict(np.array(y_pred1).reshape(-1, 1))
+
+print(f"Predicted value: {y_pred2[0]}")
+
+
+
+
