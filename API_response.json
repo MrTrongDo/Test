@@ -2,44 +2,28 @@
     "data": {
         "FA_FS": [
             {
-                "FIELD_HORIZONTAL": "Y10",
-                "GROUP2": "FS_GR_Q",
-                "ITEM_VERTICAL": "Curent_liabilities",
-                "MAPPING_FORMAT": "#,##0.0;(#,##0.0)",
-                "STT_FIELD": 10,
-                "STT_ITEM": 0,
-                "TICKER": "AAA",
-                "VALUE": "0"
-            },
-            {
-                "FIELD_HORIZONTAL": "Y9",
-                "GROUP2": "FS_GR_Q",
-                "ITEM_VERTICAL": "Curent_liabilities",
-                "MAPPING_FORMAT": "#,##0.0;(#,##0.0)",
-                "STT_FIELD": 9,
-                "STT_ITEM": 0,
-                "TICKER": "AAA",
-                "VALUE": "0"
-            },
-            {
-                "FIELD_HORIZONTAL": "Y8",
-                "GROUP2": "FS_GR_Q",
-                "ITEM_VERTICAL": "Curent_liabilities",
-                "MAPPING_FORMAT": "#,##0.0;(#,##0.0)",
-                "STT_FIELD": 8,
-                "STT_ITEM": 0,
-                "TICKER": "AAA",
-                "VALUE": "667.079"
-            },
-            {
-                "FIELD_HORIZONTAL": "Y7",
-                "GROUP2": "FS_GR_Q",
-                "ITEM_VERTICAL": "Curent_liabilities",
-                "MAPPING_FORMAT": "#,##0.0;(#,##0.0)",
-                "STT_FIELD": 7,
-                "STT_ITEM": 0,
-                "TICKER": "AAA",
-                "VALUE": "1140.28"
-            }]
+            "date": "01-03-25",
+            "bond_10y": 2.687,
+            "bond_2y": 1.919,
+            "OMO": NaN,
+            "OMO_balance": 44530.0,
+            "OMO_cum": -257625.1,
+            "VNDUSD": 24651,
+            "VN_INT_3M": 4.96,
+            "index": 1276.99,
+            "bond_gap": 0.768
+        },
+        {
+            "date": "01-06-25",
+            "bond_10y": 2.406,
+            "bond_2y": 1.803,
+            "OMO": NaN,
+            "OMO_balance": 44530.0,
+            "OMO_cum": -257625.1,
+            "VNDUSD": 24651,
+            "VN_INT_3M": 4.96,
+            "index": 1276.99,
+            "bond_gap": 0.603
+        }]
     }
 }
