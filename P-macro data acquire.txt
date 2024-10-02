@@ -537,3 +537,39 @@ print(f"Predicted value: {y_pred2[0]}")
 
 
 
+-------------------------------------------------------------return json file
+
+
+
+
+
+from flask import Flask, jsonify
+import pandas as pd
+import numpy as np
+
+app = Flask(__name__)
+
+@app.route('/get-data', methods=['GET'])
+def get_data():
+    # Load CSV file using pandas
+    csv_file = 'sample1.csv'  # Specify your CSV file path
+    df = pd.read_csv(csv_file)
+
+    # Replace NaN values with None (so they become null in JSON)
+    df = df.replace({np.nan: None})
+
+    # Convert the DataFrame to a dictionary (list of records)
+    data = df.to_dict(orient='records')  # Returns a list of dictionaries
+
+    # Wrap the data under the key "macrodata"
+    response = {
+        "macrodata": data
+    }
+
+    # Return the wrapped data as JSON
+    return jsonify(response)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
