@@ -2,64 +2,44 @@
     "data": {
         "FA_FS": [
             {
-            "date": "05-08-24",
-            "bond_10y": 2.817,
-            "bond_2y": 1.936,
-            "OMO": 10419.0,
-            "OMO_balance": 8692.0,
-            "OMO_cum": -377972.1,
-            "VNDUSD": 25080,
-            "VN_INT_3M": 5.41,
-            "index": 1188.07,
-            "bond_gap": 0.881
-        },
-        {
-            "date": "06-08-24",
-            "bond_10y": 2.793,
-            "bond_2y": 1.936,
-            "OMO": 2750.0,
-            "OMO_balance": 11729.0,
-            "OMO_cum": -375222.1,
-            "VNDUSD": 25128,
-            "VN_INT_3M": 5.27,
-            "index": 1210.28,
-            "bond_gap": 0.857
-        },
-        {
-            "date": "07-08-24",
-            "bond_10y": 2.787,
-            "bond_2y": 1.936,
-            "OMO": 3949.0,
-            "OMO_balance": 14225.0,
-            "OMO_cum": -371273.1,
-            "VNDUSD": 25155,
-            "VN_INT_3M": 5.35,
-            "index": 1215.88,
-            "bond_gap": 0.851
-        },
-        {
-            "date": "08-08-24",
-            "bond_10y": 2.778,
-            "bond_2y": 1.937,
-            "OMO": 4000.0,
-            "OMO_balance": 13525.0,
-            "OMO_cum": -367273.1,
-            "VNDUSD": 25135,
-            "VN_INT_3M": 5.07,
-            "index": 1208.32,
-            "bond_gap": 0.841
-        },
-        {
-            "date": "09-08-24",
-            "bond_10y": 2.793,
-            "bond_2y": 1.936,
-            "OMO": -250.0,
-            "OMO_balance": 12437.0,
-            "OMO_cum": -367523.1,
-            "VNDUSD": 25090,
-            "VN_INT_3M": 5.08,
-            "index": 1223.64,
-            "bond_gap": 0.857
-        }]
+                "FIELD_HORIZONTAL": "Y10",
+                "GROUP2": "FS_GR_Q",
+                "ITEM_VERTICAL": "Curent_liabilities",
+                "MAPPING_FORMAT": "#,##0.0;(#,##0.0)",
+                "STT_FIELD": 10,
+                "STT_ITEM": 0,
+                "TICKER": "AAA",
+                "VALUE": "0"
+            },
+            {
+                "FIELD_HORIZONTAL": "Y9",
+                "GROUP2": "FS_GR_Q",
+                "ITEM_VERTICAL": "Curent_liabilities",
+                "MAPPING_FORMAT": "#,##0.0;(#,##0.0)",
+                "STT_FIELD": 9,
+                "STT_ITEM": 0,
+                "TICKER": "AAA",
+                "VALUE": "0"
+            },
+            {
+                "FIELD_HORIZONTAL": "Y8",
+                "GROUP2": "FS_GR_Q",
+                "ITEM_VERTICAL": "Curent_liabilities",
+                "MAPPING_FORMAT": "#,##0.0;(#,##0.0)",
+                "STT_FIELD": 8,
+                "STT_ITEM": 0,
+                "TICKER": "AAA",
+                "VALUE": "667.079"
+            },
+            {
+                "FIELD_HORIZONTAL": "Y7",
+                "GROUP2": "FS_GR_Q",
+                "ITEM_VERTICAL": "Curent_liabilities",
+                "MAPPING_FORMAT": "#,##0.0;(#,##0.0)",
+                "STT_FIELD": 7,
+                "STT_ITEM": 0,
+                "TICKER": "AAA",
+                "VALUE": "1140.28"
+            }]
     }
 }
