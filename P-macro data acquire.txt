@@ -183,16 +183,19 @@ df_combined = pd.merge(df_combined_10f, df_combined_2f, how="left"\
 # Load your data
 omo_df = pd.read_csv('C:\\Users\\417776\\Downloads\\Python\\fin\\macro data\\OMO.csv')
 omo_df['date'] = pd.to_datetime(omo_df['Date'])
-omo_df = omo_df[['date', 'OMO', 'OMO_balance']]
+# omo_df = omo_df[['date', 'OMO', 'OMO_balance']]
+omo_df = omo_df[['date', 'OMO']]
 
 # Load your data update
-omo_df2 = pd.read_excel('C:\\Users\\417776\\Downloads\\Python\\fin\\macro data\\OMO_update.xlsx', sheet_name = 'OMO_update')    
+omo_df2 = pd.read_csv('C:\\Users\\417776\\Downloads\\Python\\fin\\macro data\\OMO_update.csv')    
 omo_df2['date'] = pd.to_datetime(omo_df2['Date'])
-omo_df2['OMO'] = omo_df2['Trans_amt']
+omo_df2[['Volume_buy', 'Volume_sell']] = omo_df2[['Volume_buy', 'Volume_sell']].replace(',', '', regex=True).apply(pd.to_numeric)
+omo_df2['OMO'] = omo_df2['Volume_buy']-omo_df2['Volume_sell']
 
-omo_df2['OMO_balance'] = omo_df2['Balance']
+# omo_df2['OMO_balance'] = omo_df2['Balance']
 
-omo_df2 = omo_df2[['date', 'OMO', 'OMO_balance']]
+# omo_df2 = omo_df2[['date', 'OMO', 'OMO_balance']]
+omo_df2 = omo_df2[['date', 'OMO']]
 
 
 # COMBINE DATAFRAME
@@ -210,7 +213,7 @@ df_combined3 = pd.merge(df_combined, combined_omo_df, how="left"\
               , right_on=['date']\
               , validate="1:1")
 
-df_combined3['OMO_balance'] = df_combined3['OMO_balance'].fillna(method='ffill').fillna(method='bfill')
+# df_combined3['OMO_balance'] = df_combined3['OMO_balance'].fillna(method='ffill').fillna(method='bfill')
 df_combined3['OMO_cum'] = df_combined3['OMO_cum'].fillna(method='ffill').fillna(method='bfill')
     
 
@@ -280,18 +283,33 @@ df_combined3['VNDUSD'] = df_combined3['VNDUSD'].fillna(method='ffill').fillna(me
     
 # -----------------------GET DATA VNINT_consol
 
-# Load your data
+# Load old data
 vnint_df = pd.read_csv('C:\\Users\\417776\\Downloads\\Python\\fin\\macro data\\VNInterest_consol.csv')
 vnint_df['date'] = pd.to_datetime(vnint_df['date'])
 vnint_df = vnint_df[['date', 'VN_INT_3M']]
 
+# GET current data
+# Load your data
+vnint_df2 = pd.read_csv('C:\\Users\\417776\\Downloads\\Python\\fin\\macro data\\OMO_update.csv') 
+vnint_df2['date'] = pd.to_datetime(vnint_df2['Date'])
+vnint_df2['VN_INT_3M'] = vnint_df2['Int3M']
+vnint_df2 = vnint_df2[['date', 'VN_INT_3M']]
+
+# COMBINE DATAFRAME
+combined_vnint_df = pd.concat([vnint_df, vnint_df2], ignore_index=True).dropna(subset=['VN_INT_3M'])
+
+# REMOVE DUPLICATE LIST
+combined_vnint_df = combined_vnint_df.drop_duplicates(subset=['date'], keep='last')
+
+
 # JOIN 2 DATAFRAME
-df_combined3 = pd.merge(df_combined3, vnint_df, how="left"\
+df_combined3 = pd.merge(df_combined3, combined_vnint_df, how="left"\
               , left_on=['date']\
               , right_on=['date']\
               , validate="1:1")
 
 df_combined3['VN_INT_3M'] = df_combined3['VN_INT_3M'].fillna(method='ffill').fillna(method='bfill')
+
 
 # -----------------------GET DATA VNINDEX
 
@@ -315,8 +333,143 @@ df_combined3['bond_gap'] = df_combined3['bond_10y']-df_combined3['bond_2y']
 
 # Print the consolidated DataFrame
 print(df_combined3)
-df_combined3.to_csv("sample1.csv")
+# df_combined3.to_csv("sample1.csv")
 
+correlation_OMOvsVNDUSD = df_combined3[['OMO_cum', 'VNDUSD']].corr().iloc[0, 1]
+correlation_IntvsBondgap = df_combined3[['VN_INT_3M', 'bond_gap']].corr().iloc[0, 1]
+correlation_BondgapvsIndex = df_combined3[['bond_gap', 'index']].corr().iloc[0, 1]
+OMO_1MChange = df_combined3['OMO_cum'] - df_combined3['OMO_cum'].shift(30)
+VNDUSD_1MChangeAmt = df_combined3['VNDUSD'] - df_combined3['VNDUSD'].shift(30)
+VNDUSD_1MChange = df_combined3['VNDUSD']/df_combined3['VNDUSD'].shift(30)-1
+VN_INT_1MChange = df_combined3['VN_INT_3M']-df_combined3['VN_INT_3M'].shift(30)
+Bondgap_1MChange = df_combined3['bond_gap']-df_combined3['bond_gap'].shift(30)
+
+
+# --------------------- Measurement
+# OMO Measurement
+if OMO_1MChange.iloc[-1] > 0:
+    OMO_Measure = f"Tích cực"
+elif OMO_1MChange.iloc[-1] < 0:
+    OMO_Measure = f"Tiêu cực"
+else:
+    OMO_Measure = "Trung lập"
+    
+# OMO comment
+if OMO_1MChange.iloc[-1] > 0:
+    OMO_comment = f"NHNN bơm ròng 1 tháng gần nhất {OMO_1MChange.iloc[-1]/1000} ngàn tỷ đồng qua nghiệp vụ thị trường mở"
+elif OMO_1MChange.iloc[-1] < 0:
+    OMO_comment = f"NHNN hút ròng 1 tháng gần nhất {OMO_1MChange.iloc[-1]/1000} ngàn tỷ đồng qua nghiệp vụ thị trường mở"
+else:
+    OMO_comment = "Không ghi nhận hoạt động của NHNN trên nghiệp vụ thị trường mở trong 1 tháng gần nhất"
+
+# VNDUSD comment
+if VNDUSD_1MChange.iloc[-1] >= 0:
+    VNDUSD_comment = f"Tỷ giá USDVND tăng {VNDUSD_1MChangeAmt.iloc[-1]/1000} ngàn đồng tương ứng tăng {round(VNDUSD_1MChange.iloc[-1]*100,2)}% trong 1 tháng gần nhất"
+else: 
+    VNDUSD_comment = f"Tỷ giá USDVND giảm {VNDUSD_1MChangeAmt.iloc[-1]/1000} ngàn đồng tương ứng giảm {round(VNDUSD_1MChange.iloc[-1]*100,2)}% trong 1 tháng gần nhất"
+
+
+# VN_INT comment
+if VN_INT_1MChange.iloc[-1] >= 0:
+    VN_INT_comment = f"Lãi suất liên ngân hàng tăng {round(VN_INT_1MChange.iloc[-1],2)}% trong 1 tháng gần nhất"
+else: 
+    VN_INT_comment = f"Lãi suất liên ngân hàng giảm {round(VN_INT_1MChange.iloc[-1],2)}% trong 1 tháng gần nhất"
+
+# Bond gap Measurement
+if Bondgap_1MChange.iloc[-1] >= 0:
+    Bondgap_measure = f"Tích cực"
+else: 
+    Bondgap_measure = f"Tiêu cực"
+
+# Bond gap comment
+if Bondgap_1MChange.iloc[-1] >= 0:
+    Bondgap_comment = f"Chênh lệch Lợi suất trái phiếu 10 năm so với 2 năm tăng {round(Bondgap_1MChange.iloc[-1],2)}% trong 1 tháng gần nhất"
+else: 
+    Bondgap_comment = f"Chênh lệch Lợi suất trái phiếu 10 năm so với 2 năm giảm {round(Bondgap_1MChange.iloc[-1],2)}% trong 1 tháng gần nhất"
+
+# correlation_OMOvsVNDUSD comment
+if correlation_OMOvsVNDUSD < -0.5 and VNDUSD_1MChange.iloc[-1] >= 0:
+    correlation_OMOvsVNDUSD_comment = f"Hoạt động bơm hút ròng qua nghiệp vụ thị trường mở của NHNN có tương quan nghịch với biến động của tỷ giá USDVND. Khi tỷ giá USDVND tăng, NHNN có xu hướng hút ròng tiền qua nghiệp vụ thị trường mở, nhằm giảm cung tiền VND từ đó giúp tăng giá trị VND để cân đối lại tỷ giá. Cụ thể mức độ tương quan giữa Tỷ giá USDVND với Giá trị bơm hút ròng qua nghiệp vụ thị trường mở là {round(correlation_OMOvsVNDUSD,2)}"
+elif correlation_OMOvsVNDUSD < -0.5 and VNDUSD_1MChange.iloc[-1] < 0:
+    correlation_OMOvsVNDUSD_comment = f"Hoạt động bơm hút ròng qua nghiệp vụ thị trường mở của NHNN có tương quan nghịch với biến động của tỷ giá USDVND. Khi tỷ giá USDVND giảm, NHNN có xu hướng bơm ròng tiền qua nghiệp vụ thị trường mở, nhằm tăng cung tiền VND từ đó giúp giảm giá trị VND để cân đối lại tỷ giá. Cụ thể mức độ tương quan giữa Tỷ giá USDVND với Giá trị bơm hút ròng qua nghiệp vụ thị trường mở là {round(correlation_OMOvsVNDUSD,2)}"
+else:
+    correlation_OMOvsVNDUSD_comment = ""
+
+# correlation_IntvsBondgap measure
+if correlation_IntvsBondgap < -0.5 and correlation_BondgapvsIndex > 0.5 and Bondgap_1MChange.iloc[-1] > 0 and VN_INT_1MChange.iloc[-1] < 0:
+    correlation_IntvsBondgap_measure = "Tích cực"
+elif correlation_IntvsBondgap < -0.5 and correlation_BondgapvsIndex > 0.5 and Bondgap_1MChange.iloc[-1] < 0 and VN_INT_1MChange.iloc[-1] > 0:
+    correlation_IntvsBondgap_measure = "Tiêu cực"
+elif correlation_IntvsBondgap < -0.5 and correlation_BondgapvsIndex > 0.5 and Bondgap_1MChange.iloc[-1] > 0:
+    correlation_IntvsBondgap_measure = "Tích cực"
+elif correlation_IntvsBondgap < -0.5 and correlation_BondgapvsIndex > 0.5 and Bondgap_1MChange.iloc[-1] < 0:
+    correlation_IntvsBondgap_measure = "Tiêu cực"
+else:
+    correlation_IntvsBondgap_measure = ""
+
+# correlation_IntvsBondgap comment
+if correlation_IntvsBondgap < -0.5 and correlation_BondgapvsIndex > 0.5 and Bondgap_1MChange.iloc[-1] > 0 and VN_INT_1MChange.iloc[-1] < 0:
+    correlation_IntvsBondgap_comment = f"Lãi suất liên ngân hàng quan hệ tương quan nghịch với Chênh lệch lợi suất trái phiếu 10 năm và 2 năm (Hệ số tương quan là {round(correlation_IntvsBondgap,2)}). Khi lãi suất liên ngân hàng giảm, Chênh lệch lợi suất trái phiếu 10 năm và 2 năm có xu hướng tăng. Theo mô hình phân tích, Vnindex có tương quan thuận với Chênh lệch lợi suất trái phiếu 10 năm và 2 năm với mức tương quan {round(correlation_BondgapvsIndex,2)}. Từ đó cho thấy, Lãi suât liên ngân hàng giảm là tín hiệu tích cực với Vnindex"
+elif correlation_IntvsBondgap < -0.5 and correlation_BondgapvsIndex > 0.5 and Bondgap_1MChange.iloc[-1] < 0 and VN_INT_1MChange.iloc[-1] > 0:
+    correlation_IntvsBondgap_comment = f"Lãi suất liên ngân hàng quan hệ tương quan nghịch với Chênh lệch lợi suất trái phiếu 10 năm và 2 năm (Hệ số tương quan là {round(correlation_IntvsBondgap,2)}). Khi lãi suất liên ngân hàng tăng, Chênh lệch lợi suất trái phiếu 10 năm và 2 năm có xu hướng giảm. Theo mô hình phân tích, Vnindex có tương quan thuận với Chênh lệch lợi suất trái phiếu 10 năm và 2 năm với mức tương quan {round(correlation_BondgapvsIndex,2)}. Từ đó cho thấy, Lãi suât liên ngân hàng tăng là tín hiệu tiêu cực với Vnindex"
+elif correlation_IntvsBondgap < -0.5 and correlation_BondgapvsIndex > 0.5 and Bondgap_1MChange.iloc[-1] > 0:
+    correlation_IntvsBondgap_comment = f"Theo mô hình phân tích, Vnindex có tương quan thuận với Chênh lệch lợi suất trái phiếu 10 năm và 2 năm với mức tương quan {round(correlation_BondgapvsIndex,2)}. Từ đó cho thấy, Chênh lệch lợi suất trái phiếu 10 năm và 2 năm tăng là tín hiệu tích cực với Vnindex"
+elif correlation_IntvsBondgap < -0.5 and correlation_BondgapvsIndex > 0.5 and Bondgap_1MChange.iloc[-1] < 0:
+    correlation_IntvsBondgap_comment = f"Theo mô hình phân tích, Vnindex có tương quan thuận với Chênh lệch lợi suất trái phiếu 10 năm và 2 năm với mức tương quan {round(correlation_BondgapvsIndex,2)}. Từ đó cho thấy, Chênh lệch lợi suất trái phiếu 10 năm và 2 năm giảm là tín hiệu tiêu cực với Vnindex"
+else:
+    correlation_IntvsBondgap_comment = ""
+
+# # Main
+# print(OMO_Measure) #---Tích cực -> positive_color , Tiêu cực -> negative
+# print(OMO_1MChange.iloc[-1]/1000) #---Giảm -> negative_color , tăng -> positive, DVT: ngàn tỷ đồng, Diễn giải: Bơm hút ròng tín phiếu
+# print(round(VNDUSD_1MChange.iloc[-1]*100,2)) #---Tăng -> negative_color , giảm -> positive, DVT: %, Diễn giải: Thay đổi tỷ giá USDVND
+
+# print(correlation_IntvsBondgap_measure) #---Tích cực -> positive_color , Tiêu cực -> negative
+# print(round(VN_INT_1MChange.iloc[-1],2)) #---Giảm -> positive_color , tăng -> negative, DVT: %, Diễn giải: Thay đổi lãi suất liên ngân hàng
+# print(round(Bondgap_1MChange.iloc[-1],2)) #---Giảm -> negative_color , tăng -> positive, DVT: %, Diễn giải: Thay đổi Chênh lệch LSTP \n 10 năm và 2 năm
+# # Note: Thay đổi 1 tháng gần nhất
+
+# # Explanation
+# print(OMO_Measure)
+# print(OMO_comment)
+# print(VNDUSD_comment)
+# print(correlation_OMOvsVNDUSD_comment)
+# # Note: Mô hình phân tích dựa trên dữ liệu quan sát 2 năm gần nhất
+
+# print(Bondgap_measure)
+# print(Bondgap_comment)
+# # print(VN_INT_comment)
+# print(correlation_IntvsBondgap_measure)
+# print(correlation_IntvsBondgap_comment)
+# # Note: Mô hình phân tích dựa trên dữ liệu quan sát 2 năm gần nhất
+
+data_measure = {
+    'Report_date': [datetime.now().strftime('%Y%m%d')],
+    
+    'OMO_Measure_Main': [OMO_Measure], #---notification when changing this field
+    'OMO_1MChange_Main': [OMO_1MChange.iloc[-1]/1000],
+    'VNDUSD_1MChange_Main': [round(VNDUSD_1MChange.iloc[-1]*100,2)],
+    
+    'correlation_IntvsBondgap_measure_Main': [correlation_IntvsBondgap_measure], #---notification when changing this field
+    'VN_INT_1MChange_Main': [round(VN_INT_1MChange.iloc[-1],2)],
+    'Bondgap_1MChange_Main': [round(Bondgap_1MChange.iloc[-1],2)],
+    
+    'OMO_Measure': [OMO_Measure], 
+    'OMO_comment': [OMO_comment],
+    'VNDUSD_comment': [VNDUSD_comment],
+    'correlation_OMOvsVNDUSD_comment': [correlation_OMOvsVNDUSD_comment],
+    
+    'Bondgap_measure': [Bondgap_measure],
+    'Bondgap_comment': [Bondgap_comment],
+    'correlation_IntvsBondgap_measure': [correlation_IntvsBondgap_measure],
+    'correlation_IntvsBondgap_comment': [correlation_IntvsBondgap_comment]
+}
+
+# Create a DataFrame from the dictionary
+data_summary = pd.DataFrame(data_measure)
+
+print(data_summary)
+data_summary.to_csv("sample3.csv", encoding='utf-8-sig', index=False)
 
 
 
